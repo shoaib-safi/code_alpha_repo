@@ -1,0 +1,5 @@
+# Alert on ICMP echo requests (ping)
+alert icmp any any -> any any (msg:"ICMP Echo Request Detected"; itype:8; sid:1000001; rev:1;)
+
+# Alert on attempts to access a suspicious website
+alert http any any -> any any (msg:"Suspicious Website Access"; content:"example.com"; nocase; sid:1000003; rev:1;)

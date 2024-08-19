@@ -1,0 +1,30 @@
+# Suricata main configuration file
+vars:
+  address-groups:
+    HOME_NET: "[192.168.1.0/24]"
+
+default-rule-path: /etc/suricata/rules
+
+rule-files:
+  - custom.rules
+  - emerging-threats.rules
+  - tor.rules
+
+outputs:
+  - eve-log:
+      enabled: yes
+      filetype: regular
+      filename: eve.json
+      types:
+        - alert:
+            metadata: yes
+        - http:
+            extended: yes
+        - dns:
+            query: yes
+        - tls:
+            extended: yes
+
+  - fast-log:
+      enabled: yes
+      filename: fast.log

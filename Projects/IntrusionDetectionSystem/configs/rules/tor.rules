@@ -1,0 +1,1 @@
+alert ip any any -> any any (msg:"TOR Node Detected"; content:"TOR"; sid:1000004; rev:1;)

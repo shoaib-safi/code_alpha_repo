@@ -1,0 +1,3346 @@
+Packet Summary,Packet Details
+"Ether / IP / UDP / DNS Qry ""b'edge.microsoft.com.'"" ","###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 64
+     id        = 16984
+     flags     = 
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x2007
+     src       = 192.168.43.143
+     dst       = 192.168.43.110
+     \options   \
+###[ UDP ]### 
+        sport     = 50148
+        dport     = domain
+        len       = 44
+        chksum    = 0xef98
+###[ DNS ]### 
+           id        = 45203
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'edge.microsoft.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+"Ether / IP / UDP / DNS Qry ""b'edge.microsoft.com.'"" ","###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 64
+     id        = 16985
+     flags     = 
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x2006
+     src       = 192.168.43.143
+     dst       = 192.168.43.110
+     \options   \
+###[ UDP ]### 
+        sport     = 49252
+        dport     = domain
+        len       = 44
+        chksum    = 0xb649
+###[ DNS ]### 
+           id        = 60706
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'edge.microsoft.com.'
+            |  qtype     = HTTPS
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+"Ether / IP / UDP / DNS Ans ""b'edge-microsoft-com.dual-a-0036.a-msedge.net.'"" ","###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 167
+     id        = 23042
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0x7f6
+     src       = 192.168.43.110
+     dst       = 192.168.43.143
+     \options   \
+###[ UDP ]### 
+        sport     = domain
+        dport     = 50148
+        len       = 147
+        chksum    = 0x241d
+###[ DNS ]### 
+           id        = 45203
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 4
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'edge.microsoft.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'edge.microsoft.com.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 1759
+            |  rdlen     = 45
+            |  rdata     = 'edge-microsoft-com.dual-a-0036.a-msedge.net.'
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'edge-microsoft-com.dual-a-0036.a-msedge.net.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 18
+            |  rdlen     = None
+            |  rdata     = 'dual-a-0036.a-msedge.net.'
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'dual-a-0036.a-msedge.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 54
+            |  rdlen     = 4
+            |  rdata     = 13.107.21.239
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'dual-a-0036.a-msedge.net.'
+            |  type      = A
+            |  rclass    = IN
+            |  ttl       = 54
+            |  rdlen     = 4
+            |  rdata     = 204.79.197.239
+           ns        = None
+           ar        = None
+"
+"Ether / IP / UDP / DNS Ans ""b'edge-microsoft-com.dual-a-0036.a-msedge.net.'"" ","###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 182
+     id        = 23045
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0x7e4
+     src       = 192.168.43.110
+     dst       = 192.168.43.143
+     \options   \
+###[ UDP ]### 
+        sport     = domain
+        dport     = 49252
+        len       = 162
+        chksum    = 0xb2e6
+###[ DNS ]### 
+           id        = 60706
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 2
+           nscount   = 1
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'edge.microsoft.com.'
+            |  qtype     = HTTPS
+            |  qclass    = IN
+           \an        \
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'edge.microsoft.com.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 1230
+            |  rdlen     = 45
+            |  rdata     = 'edge-microsoft-com.dual-a-0036.a-msedge.net.'
+            |###[ DNS Resource Record ]### 
+            |  rrname    = 'edge-microsoft-com.dual-a-0036.a-msedge.net.'
+            |  type      = CNAME
+            |  rclass    = IN
+            |  ttl       = 15
+            |  rdlen     = None
+            |  rdata     = 'dual-a-0036.a-msedge.net.'
+           \ns        \
+            |###[ DNS SOA Resource Record ]### 
+            |  rrname    = 'a-msedge.net.'
+            |  type      = SOA
+            |  rclass    = IN
+            |  ttl       = 205
+            |  rdlen     = None
+            |  mname     = 'ns1.a-msedge.net.'
+            |  rname     = 'msnhst.microsoft.com.'
+            |  serial    = 2016092901
+            |  refresh   = 1800
+            |  retry     = 900
+            |  expire    = 2419200
+            |  minimum   = 240
+           ar        = None
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https S,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 60776
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdc9
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760438703
+        ack       = 0
+        dataofs   = 8
+        reserved  = 0
+        flags     = S
+        window    = 64240
+        chksum    = 0xed20
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https S,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 60777
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdc8
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768764806
+        ack       = 0
+        dataofs   = 8
+        reserved  = 0
+        flags     = S
+        window    = 64240
+        chksum    = 0xe664
+        urgptr    = 0
+        options   = [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 SA,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 41182
+     flags     = DF
+     frag      = 0
+     ttl       = 106
+     proto     = tcp
+     chksum    = 0x6054
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448461749
+        ack       = 3760438704
+        dataofs   = 8
+        reserved  = 0
+        flags     = SA
+        window    = 65535
+        chksum    = 0xc84e
+        urgptr    = 0
+        options   = [('MSS', 960), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60778
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdd3
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760438704
+        ack       = 2448461750
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0x62c
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https A / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 60779
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfa12
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760438704
+        ack       = 2448461750
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0x2fe2
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x16\x03\x01\x06\\xdb\x01\x00\x06\\xd7\x03\x03zf\\xe2\\xe1\\xce\\xf1{\x06lr\\x85e\\xcf\\xc4j\\x94\x05J\x07i&ɸ\x07\\xc2\\xe6j\\x95L\\x91T\\xf1 \\xd3\n\\x9f\x14\\xbf\\xf8\\x96\\xef0\\xb8\\xa82>\\xa9\\xa1\x17\\xabZr\\xca7\\xfcci\\xc7\x0e\\xc5PX\\x96\\xfa""\x00 \\x9a\\x9a\x13\x01\x13\x02\x13\x03\\xc0+\\xc0/\\xc0,\\xc00̨̩\\xc0\x13\\xc0\x14\x00\\x9c\x00\\x9d\x00/\x005\x01\x00\x06n\\xda\\xda\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\\xfe\r\x00\\xda\x00\x00\x01\x00\x01\\xe9\x00 z n\\xe1\\xa2\\xc2#\x14ļ0_6\\xfdg\\xe6\\xa11\\xf9`k\\xcdǋ\\x95>Bz\\x89\x0fVx\x00\\xb0\\xa9!Y\\xbf\\x85$\x1fC\\x999\x1d\\x93\\xac\\xc7z\'hJ\\\x7f\\xbd\x12\\x86\\xd4i\x16\\xfa\\xfa\n\\xaa\\x87\\xc4j\\xff\\xaa^\\xeb\\xff\\x92\x0c$b\x0c\\xdf\\xe7\\xefV\\xb0\\xda˰\x1d\\x8e\\xa1x\\x85\\x8b\n\\x80ֈ\\xb0\\xa3\\xa9\\xec\\xe7G\\xc9I\\xa2xg\r\\xd1Ls\\x92\\x9e\x0b\\xe8*\\x9b\\xc4\\xda\x06\\xeeq\t\\x991\\xcc\x7f\\xf3d\\xce*\r(3\\xf8\\xf5w\\xac*hw\x03\\xcc\x7f\\xa4/\x1f6\\x80\\xedF\\xcfo+봎~Y\\xe0{}\\xa1\\x966\\xf2\\x9c)@\\xad\\xf9\\xa8\\xc5=\\xcf]\\\\xacĎ:\\xdc\x03c\\x8d\\xebK\\xe9\\x84i\\xe9\x14Z\\xb8\\x86\\x88\\x83\\xbdpl\\xca-\\x95\\xc9.\x10\x16S\\x80\\xd5_\x00-\x00\x02\x01\x01\x00\x00\x00\x17\x00\x15\x00\x00\x12edge.microsoft.com\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1Di\x00\x05\x00\x03\x02h2\x00\r\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\n\x00\x0c\x00\nZZc\\x99\x00\x1d\x00\x17\x00\x18\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04\\xef\x04\\xedZZ\x00\x01\x00c\\x99\x04\\xc0\\xe8\\x9a)\\x98\\xc9\\xe16\\xb9AC\\xad\\xf0\\x85\\xb5v\\xff ڡ\\xb9\\xdbu\\xff\\xba\\x84;\\xf0""Go\r!\x182\\x95\\x81\n%\x7f\\xe0B]\\xc30\\xf2f?lU\\xcaN,X\x15\\x96s\x18g\x0c\\xb7\\xc56\x07\\xa2\\x99:\x00\\xcf(\\xf9\\x9f\\xe9\x19\'c\\xc1\x17.`\\xb0pʓ\x1c\\xc2W\\xf8\\xc1\\xac6\\xcbi\\xfa\\x81\x03Tq\\xb3ᬠ\\x90\\xe2N\\xa8\\x9a\\xca\x1f\\xc7\\xcfGه\\x9b4Kv\x1bkR\\xdaT\\xb6\\x8c\\x8c\x19(\\xb8-\\xa7\\x92\x05\'j\\xba\\xc1D\\x8c\t\\xa9\\xd2ĈK\\xf3&\x16\\xa4\x1bUG\\xb7\x18\\xd9W\\xdd*{\\x82\\x82\\xa0\x14\\xf4\x18\\xd9qF\\xd79\\xb9\\xe49\\x97\\xa8d\\xa5\x00\tk\x1e+\x05Υd\\x808\\x920E\\x8eʂ\\xc1\\xff\\xab\\xaeꉮ\\x89\\xba\x05\\x9a\\xa3&\\xe4 \x0f/\\xe55:\\so\\xd6grZ\\xc0\\xcc@\\xb1\\x98\\xfa\x12\x1fp\\xbe\\xab\\xc0yW\\xc1\\x80\\xbe\\xa7\\x81bH\\x85G\\xa8Ye\x0b\n\\xff\x0cD=s\\xc5 \\xb9_\x07\\xf3\\xa8\\xcf\x08\x19\\xbc\\xaaǙ\x19r\\x9a\\xa9(2\\xf7f\\xb4\x07\\xb7\\xdb\\xf6\\xcdQ\x066f\n#\\xec%\\x98)\\xfb\\x8c\\x9aE\\xac\\xb3\\xb098\\x91\\x93.\\x85/4\\xbc\\xb6\\xd0\x00o\x08(\\xcf\\xe2WmTfʗU/X\x00dp\\x96\x1dLgG\\x9d4\\xa3\\xb9\\xe1\x00{\x1cw,\\xe3\\x91\\xfe\\x92\x02:c\x19)\x13\\xb4\\xd2\\xc7s\\x8cAɾG\x1b\\xa4ƗIa/\\xfd\\xc0WoI\'E\x12\\xb7\\xbe\\xa1\\xb9\\xbf\\xdb*\x007}\\xff\x08\\x94;6\\xae\\x97\\xdbe\\xaa\\xac\\x8ba o@\\xc79\\xf0\\xfa\\xba`\\xa0vϘj\\xbe\\x97P\\xeap\\x81\\x8a\\xa2\\xb3ڱ\x0ehlF\\x89\\xa1m\x16!\x1b\\xfe\x04\x18)Iſ\\xf0\x02E\x04%:\\xb6U\x05\x12No\x12\\x8bl""$\\xf0\x10\\xa5\\xaa\\xd9[,\x06\\x94i\x140u\\xd2Eֺ_\\xacu\\x94Uz\\xbf\\xd6\\xe9\\\\x95\\xa8'
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https PA / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 840
+     id        = 60780
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfab1
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760439664
+        ack       = 2448461750
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 258
+        chksum    = 0x8fc6
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\\xd7\x00i(\\x91\x13\\xd8\\xe5\\xb6$\\xf3\\xbf\\xd2\x10?\\x8cS\\xac4鹀\x1bR\\x98ʇ\\xbd\\xaa\\x99#\\xbb\x19\\xf9{\\x84\\xc0\\xc0*\\xb6,\x10p\\xdap!rw\\xaa\\x9b\x00W\\xecaQ\\xa5\\xb6\\xb6\\xf1)<U\\x83\\xe3\\x955\x18\'\\xa6Yj+tat\x06#\\x8apfS\\xbb\\xe1Ŋ2c\x04\x15\\x88E\\x89\x1c:\\x90z\\xad\x19n\x08L.\\xed7y\x05$o-\x076\\xbd\tz\\xe7U`G\\xa6R\\x95\\x84\\xbf\\xa0\x01\x04T\\x86\\xa8\x1e\\\x1e?\\xba\x18\\x9fK\\x91~K\\xa7\\xb9|.s\\x94zP\x18P\\xe9\\xe4\\x8f\\xf9""\\xa6\\x81\\xc2D\\xcf\\xcb""\x19io\x1d\\x86\\xbb""\\xf1\\x8ebW4$0\\xc9k{\\xb5\x07\x17{Y\\n\\xcb\\xf0@R|B\\x80w4g\\x9co\x15YU\\x89\\xf2\x14\\x8e\x0c\\x9a\\xce\\xf93\\xf5\\xe37)d\\x82\\xa5\x015\\xe2W\x17b\\xfb\r\x0c\\xb0^\\x8fP\\xbb\\xb00\\x914\\xc3\x0e\\x8dRY\r\\x90l?U\\xbeP{\\x81w\\xa8\x1c\\xca+\\x85\\xc7X\\xb5n\\x83b&uF!\x15\\xab>\\xe3\\x9d\x07\\x97́9~\x13\\x94\\xacl\\xb6\x7f\\xc1\\xb2#\\xba\\xb9\\xa0b\\x96\x13o\\xe4&-\\xa7^\\xc0\\x81\\xc0\\x8b\\xc0\x13>K\x08ڳg\\xdf7\r0\n\\xb4\\x94$\\xb8N\\xc0\\xb0\\xe9\x06\x13+\x1b)\\xeaV\x15%\\x96}\\xbd\\xe1\\xb7\x1es\x08\\xc1\\xd0Q\\x8dLx\x18̲\\xa2\x12\x16#E0\r\\xc1\x12\\x9cW\\xa1\\x97v\x1a8W*(ѫ\\x80\x87\\x81\\xd1-\\xd6DH\\xa7\\x95wfvV\x07C.[\\xe2S\\x99\\xa2\\xb3>\\xe5\\xa3\\xe4\x0cq\\xd2y\\xa4K \\xbe\\xb8\\xec\x15}Ժ\\xe1\\xe3\\x9b\x0e\\x92\\xbc]R\x16\\xcaA\\x92+PB\\xca\x0bp\\x94Ҭ币\\xf0û\x11\\x88.\\xd1բ\\xe6#\\xaaI+\\xc3xP>\\x9a\\xe9\x17^ѣ\\xa7bm\\xf44y_\\xe1?\\xd3f6n\x0c\\xa6\\xdd\x08\\xae\\x927gq\\xe4m_\\\\x8f>\\xbaW\\x80\\xa4\\xa4\x1c\\xa4\\xb8qgU\\xf9\\x85\x1b\\xe8\\xec \\x9b\\xf0V\\xdf\\xebw\\xf6\\xc3\\xc54#\x13J\\xc9|E\\x83y\\xa7\\x8afhGyϼc2\\xab\x0e_\\xd1:x\x16\x16N\\xb2\\xc5jp\\xb7\\xb1Yd\\x81\x15@\\xbd:fCE\\x8cG\\xbc\\x81\\xe4gc\\x86s\x07Hx\\xa1+\\xe9s,\\xb2m\\x92:\\xa3\\xfa\\x96\\x89\\xfb1\x17\\x92Ů~\\xebC\\x8e\x02\x02y[{\x07\\xd9O\x10\\xb4X\\xefem]\\xfavR\\xcb;\\xe1{^\x04\x18\t\\x9f\\xc8\x18\\xdbx!WBp\x1f\x05K\x7f\\xe8R5\\xb3\\x8d\\xfb\\xb7|\\xe5\\x82A\\xc8p/?Rf\\x84\\xac4ڂ\x00z,\x0f\\xa8D:\x1f\x17\x01\\xea\\xcb\x02|\\xdcN\x0fV\\x83Z\\x91\\xbb\\xda\x11nM28\\xacŚ\\xc96\\x96\\xb9D/j\\x9c\\xbbBj\'<\x05]\\xbc\\xf6\x0e\\xb7\\xbf\\xc0+S\\xad\\xa1bT\\xc1\'?T\x1a&\\xedWc"">|\\xeaQ\x15B\x0b\x00\x1d\x00 T\\xe8\\xc5F,\\x81ml\\xb0ET\\xe1.S\x1cc\x0bŨl0\x0c\\xa8N\x00\\xba\\xc2}X~6n\x00+\x00\x07\x06\n\n\x03\x04\x03\x03\x00\x17\x00\x00\\xff\x01\x00\x01\x00\x00\x0b\x00\x02\x01\x00\x00\x12\x00\x00\\xea\\xea\x00\x01\x00'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 SA,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 62897
+     flags     = DF
+     frag      = 0
+     ttl       = 106
+     proto     = tcp
+     chksum    = 0xb81
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700520608
+        ack       = 2768764807
+        dataofs   = 8
+        reserved  = 0
+        flags     = SA
+        window    = 65535
+        chksum    = 0x9b3c
+        urgptr    = 0
+        options   = [('MSS', 960), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60781
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdd0
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768764807
+        ack       = 1700520609
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0xd919
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https A / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 60782
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfa0f
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768764807
+        ack       = 1700520609
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0x33d3
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x16\x03\x01\x06\\xfb\x01\x00\x06\\xf7\x03\x03x\\xfc\x00\\x98$<\\xc9\x1aZ\\x8f\\xf4\\x99\x1c\\xe7SyݹJ\r \\x84a\\xf5p\\xdc\\xff\t\\x85\x0e\\xf3- \\xf0\x0bO\\x98Yjl8\x14\\xfb\\xf0Tx\\x84\\xd9L\\x88\\xe8~x\\xe9\n\\x99\\xd9\t\\xbe\x0el\x15\\x83\\xa7\n\x00 \\xda\\xda\x13\x01\x13\x02\x13\x03\\xc0+\\xc0/\\xc0,\\xc00̨̩\\xc0\x13\\xc0\x14\x00\\x9c\x00\\x9d\x00/\x005\x01\x00\x06\\x8e::\x00\x00\x00\x00\x00\x17\x00\x15\x00\x00\x12edge.microsoft.com\x00-\x00\x02\x01\x01\x00\x1b\x00\x03\x02\x00\x02\x00\x17\x00\x00\\xfe\r\x00\\xfa\x00\x00\x01\x00\x017\x00 ;һ\x10\\xbe\\x88\\xd0\\xff\\xfe\\xf6c=\\xea\\xd7a}S\x18\\xc1zy>\\x9d\\xe8GPN\\xcb\\xf4\\xb6*D\x00\\xd0\x7f\\xe6\\xe5\\x95Z\\xadT\\x82V\\x99ԙ*\\xcf\\xdcb0\x16B\\xdc\\xcb\x0eqk\\xe2;\\xda=~\\xb2}9\x0f\\x94\\xd5&>\x00\\xf7\\x92M\x0f\\x9aщ\n\x05w&\\xe3ZTJ\\xf4\\\\xa5]\\xd8b\x1e\\xdf\\xf3|\x04+y\\xa7\x08.#\\x96\\xa7\\xa6<&_:Hs\x11\\xbf\\xb7L\\x87\x05\\xa6}\\xac\\xe2 \\xdb/B\\xe1\\xbeR\x03\\xb1\t3\\xc8a\x0c&gDȺ_\\xc2{\\xfaд\\xdft\\xe8̣&D\\xf4\\xa3X\\xb4\x10\\x8a\\xf5)\\xc9H\x03\\x8e\\xd1Lq\x1e\\xb66\\x87Hw\\xbe\\x98\\xd75Se\\xae\\x8a\x10;Á\\x8e\\xb8\\xa3K\\xbd@\\x94\\xaa\x1d\\xbc\\xe9(1E\\xc6\\xd7EK\\xf4\\xb58\x18?\\xa4(\\xa6\\xa2\\xf3>jX}\\xa3\\xfb\\xe5\\x84=;\\xe1\x17!\\x94\\xf2\\xfc)\\xd9\x08!1\\xbc\\xbc03?\x00+\x00\x07\x06\\x8a\\x8a\x03\x04\x03\x03\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1\\xff\x01\x00\x01\x00\x00#\x00\x00Di\x00\x05\x00\x03\x02h2\x003\x04\\xef\x04\\xed\x1a\x1a\x00\x01\x00c\\x99\x04\\xc0\x1e\\x8c,Q\\xc3^\x18/@a\x15xr\\x9bm\\xb8NS\\xa6Qk!,\\x95ֿ\x7fL&""\\x91\x17\x00\x12\x16\\x85\\x9cU\\xba\\x8aL\\xfd\x11\\xbcl\\xd3dD9\'\\xcd\x12\\xad\\x923\\x90\x1b\\xa05\x7fcIl\\xa9JC\x1a>n\\xf0\\x8b\x03\x13\\xa6\\xa4rYEc\r\\xec(,p\\xa1\x10\\x89GDn\\xf1E\\xfa8\\xb4\\x90\\xd4=\\x8b\x0b\\xbay\\x85[\\xbf\\xc8Dx\\x93\x063[\\xb2N\t\\xc7J\\x81L\\x99\\xfb[\\xce֤\\x85\\xb5\x14\x0c\\x83\\x92\\xf5\\xda?ȓh\\xc8\\xf2/a,B\\xae\\xa4\\xab\\xb3\\xe2X\\xb0\\xba\\xba\\xa6\\x88\\xaa\\xf6f\t\\xfdk\\x85t\\xa8\x1b\\xaa{a\\x850\\x8b\\xc2\x12\\xce""|\\xcf\\xe0Z:\\xd5\\xc4ϔ\\x83U\\x961I\\xde{\\x80o\\xb5t\\xaaØ\\xcd𘪓x\\xef\\xe1\x13\\x9c\\x9b\\xc6c\\xa6\\x86\\xa1\x07\x05\r\\x9b\\xa0-\\x91\\xb0x\\x98k\x181}\\x8dٱ\x1e\\x86G}\\xb2\x18w!\x1d\\xe8\\xb8D\x07S\\xb1\\xc8\\xcbwj\\x88\x02o3\\x9a\\xd6)\\\\x95\x19E\\xb2\\x96\\xa1c\\x90IZe\\xab\\xf5k\\xacڵ4\\xfc \\xb6O\\xec\x13\x0e\x14\\x89\\x95\\xf1-\\xf8ӣ\\xa2|\x16R\\xeb\\xbczqT\\xf6\x07\x05\\xad\\xb385\\xeb\\xc1%\\x88H\\xb6Y\\xb2\\xe4ť\x082fO5\\xc1f@\\x9c\\xf3\x06\\xca\\xcc\\xd9\\xc9P(\x14\\xa44\\xa1O\\xb5\\xc3\x0b\\x89\\xcc\\xcc\\xc8 g`\\xc5\\xfb1\\xbe\\xc0\\xac\\xbc6@ɳiSf6\\xb7>\\xd4<\x17s9\\xeb\\xe6hWWts|\\x90}tO\\xffR7\\x99\\xeb̢pvec\\x83\\xdb\\xe1^\\xd9\\xe7EM\\xe9\x05\\xe8\\xf6\\xa2\x07\\xb3q\\xa6\\xf0\\xbb7,VI\\xf8\\xae\x12õ\\x86\x06\\x81\\xfa\\xd7Oc\\xb7|\\x81\\xca\x19\x1c\\xa0\x08\\xde\\xfb\x1e\x15;U2\\xf46\x10e`\\x9dʔ\\x96$vU̽Ic\x06Q\x155v쉃\\xf6\\x9by\\x8c\\x81\x17\nsI+\\x84\\xfcKy'
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https PA / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 872
+     id        = 60783
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfa8e
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768765767
+        ack       = 1700520609
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 258
+        chksum    = 0xcd7c
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '繊\x19\\xf9z!\\xb6I\\xba\\x8b\\xaa\x91%\x7f\\xb4A\\x90\\x92\\xb0\\x9df\\x96\x01\\xa6Y\x11\\xa7""^\\xd9wѳ\x05\\xa0\\xa5B/AM\\xf1:\\x99E\x0c\x03\x0f\\x81J\\xa6\\xb9r\\xcd<\\xb7ڤgR\\x93]˙\t\\xe7Tq{\\xd9\x1e\\xffV-\\x90\\x95\\x84\x12\x1b4\\xf5\x11\x0e\\x93\\x87z\\xadEn\\xfe\\xd1D\\xfa0%ku\\xcf`\\xe2^\\xe4\\xf4rj\\xa03\n\\xc8\x07k\x17O\\xd7\\xf3\\x9cg\\x82\x0fO\\x92DM\\x93\\xce\t#\\xafv\\xa9\\x97\u074c\x1a\\xf5\\x88J\r7]&ċ\\xe7\\xc2DlUU\\x938\\x9c\x0cc\x1c\x0b\x146\\xf0H2Ԇe\\xaeE\x15jB\x15\\xbe\\x8a\\x90ɼ\\xb7;\\xe3ME\\x89\r+\\x83Z\x00\\xa1\\xb5\\xbc\\xf1\\x87\x02\\xb78\\xfcx""\x17\\x85GcW\\xc7+\\xe4u\\xa9\x1c\r\\xdc\\xdc=\\xba\x04\\xd0?\\xe1\x12\\xbf\\xb3d\x01#UpD\\xae\x01I\\x9a0\\x87ϻc\\x92\\xbc\\xc6,\\xd2\x13\\xc0NT\\x82\\x988\\xb9\\x94<\\xa3\\xa0*\x02\\xe6\x04\x089\\xe9EN\\x80N\\xed\x03\\xb1\\xbckg}\\xaa\\x87\\x86\\xa1\\x8f\\x91\\x82\\xa4A\x01\\xc2\x1eIw\\xe9\x01\\x88\\խ&+\\xc9\x7fd/\x1c\\xe1\\xa4#3\\x83\\x951\\xc9~\\xa8\x14۹I\x1bb\x19?;\x1b\\xb91{7f\\x9e5\\xe2)\\xcc(\\xa2\\xf1\\xc5c\\\\x80Bb\\xbb3\\xe4\\x90\\xc1\\xe4\\xb0J\x13\x03\x02<i{\\xf4\\xec-\\x8dЪ\\xac|\\x85\\xeba\\x94\\xd6\\xe6\\xb7""J:67\\x98\x1e\\xf7=;\\x94\\x8cI\\xdb4d\\x87\\x94g\\x9b`\\xb2G\\x90u\x1a\\x97\\xb3w%Z\\xb2̲\\x80O\x1d\\xe7i\\x98\\xdaJ7\\xa3\\xa3\\xfcՔ\\xb4K\r\\xb0È\\x9e\\xbaG\x02\x14=\\xfef\\x84\\xbf\x10|_ٽ\\xea\\x89\\\\x85\\xb9m\\xa1jj!V\\x8e\\x89\\xf7F\\x9a\\xf76\\xd3hN\\xad1A\\xdb4f\\xe2j=ۚV\\xae\\xe6xDe\\\\xea\\x84+.\\x8c\x1e5!^v\\xa2\\xa3\x12\x0b`\\xa1t@:j\x1c\x11\\xb6ol\\xfb\\xcd\\xfbP\x0f\\x8c\\xaa\x1bL\x06g\\xdf\\xd8>E\\xc7av9\\x96s\\xd56\\xe8\x07#\t\\xf7b;\\xb8V\\xaa\x16sKd\\x93\\xd4ʨ\\xd3Y\\xafV\\x9b\\x96\\xe2\x17$\\xde)\\xb5\\xeek @$R\\xbfb\\x91\x0e\\xe2\\x89m\\xc3<\\xd8;\\x83\\x92\\x80\\x94=\\xe6\\xa5\x02ї\x0c\\xf8;\x1a\\x8c\x0e\x11\\x99\x1ei\\xfc\\x83\\xb3K(@\\xa4\\x97x\\x96l\\xa7@\\x9cv\x13c\\x83G^NZY\x0f\\xe0\\x8b\x04\\xf0d\x00r\\xba^\\xa9\\xb1\\xa6\\xb4Xz\\x85#\\xd2Цpfš\\xacnpg\x12T\\xbc\t(zY|\\xeb\x03\\xb3C\x07ݜ\x1f;!\\xc7jz\\x8c\\xb1\\xb2\\xb4\\xff\\xe2\\xce\\xdfщ&Ǹ`\\x9c~\\xb3%M\\x8a\\x95\\xc6s\x04\\xa1\x04\\x8a\\x91\\x88\\x912\\x8b\\x90\\xac\\xf0\\x893\\xc9鞳\x1c\x7f\\xf6-6Mݱ\\x98\\xd8\x11\\x92\\xaf\\xc0\nt+\x17\\xf6\\xbd\\x9c\x93:\\xa1j\\xad)\x1f\x12t\x00\x1d\x00 {\\xf4x\\xee\\xe8""Yx?\\x82\x12K\\xad0a8m\\xbd\\xe7\\xf2\\xcbj=\x0f\\xb2@\\xe71\x05\x18\\xdcA\x00\n\x00\x0c\x00\n\x1a\x1ac\\x99\x00\x1d\x00\x17\x00\x18\x00\x12\x00\x00\x00\x0b\x00\x02\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\r\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\\xba\\xba\x00\x01\x00'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 41183
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5f5f
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448461750
+        ack       = 3760439664
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16387
+        chksum    = 0xc36a
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 41184
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5f5e
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448461750
+        ack       = 3760440464
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0xc04d
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 41185
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5b9d
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448461750
+        ack       = 3760440464
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0xa5
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x16\x03\x03\x17\x04\x02\x00\x00f\x03\x03f\\xbd\x0f\x17\\x99\\x84\\x91H\\x91Z\\xba<\\xbdX\\xb6\\xab\\xda\\xedp\\xe6\\xa8{)\x05\x1c\\x95\\xcf\\xf9\x1d\x1f\\x93` e""\x00\x003\\xd4?JV\x0f\\x8b\rgM\\x8e\\xbe\\xd7Z.\\xe7]\\xdf\\xda\\xe3\\xf9\\xf4\x19\\xeb\\xd0 \\xb9q\\xc00\x00\x00\x1e\x00\x05\x00\x00\x00#\x00\x00\x00\x10\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\\xff\x01\x00\x01\x00\x00\x00\x00\x00\x0b\x00\x0e\'\x00\x0e$\x00\x08n0\\x82\x08j0\\x82\x06R\\xa0\x03\x02\x01\x02\x02\x133\x00{y\\xc3\\xdbsrM|8\\xf6B\x00\x00\x00{y\\xc30\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x000]1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x1e0\x1c\x06\x03U\x04\n\x13\x15Microsoft Corporation1.0,\x06\x03U\x04\x03\x13%Microsoft Azure RSA TLS Issuing CA 030\x1e\x17\r240716115627Z\x17\r250711115627Z0i1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x0b0\t\x06\x03U\x04\x08\x13\x02WA1\x100\x0e\x06\x03U\x04\x07\x13\x07Redmond1\x1e0\x1c\x06\x03U\x04\n\x13\x15Microsoft Corporation1\x1b0\x19\x06\x03U\x04\x03\x13\x12edge.microsoft.com0\\x82\x01""0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x01\x05\x00\x03\\x82\x01\x0f\x000\\x82\x01\n\x02\\x82\x01\x01\x00\\xb4\x7f\\x99X\\x97\\xa7\\xe7\x13\\xc5Pn !b0\\xec\\x9e\\xf1H\u05fftt4%\\xee\x0b\x0f\\x92\x00g\x17Y\\xf9\\xecg\\xf2\\xdf\\xfbDW\\x94\\x87u\\xbez\\x84z\\xfau>\\x9f\\x96枠\\x82\x1a\x1b\x18\\xbd=\\xf28\\xae\\x80>F͎\x198\\xc6\\xee\\xa3ǹ\\\\x8d\\xbcC\\xe6\x0cq\x0e\\xa0\x11\\x9e\\x9f\\x80b\\x81J3\\xaf\\xf7\\xee\\xa7\x12\\xc1\\x8b\\xd6R\\xbd\x01=O\x1d\x11\x08X\\xca7\\xab\\xac|\\xc0\\xc4\\xe4\\xe3\\xc0r\\xd2\\xe1\\xeeE\\x95\\xcb\x12d\u07fc!\\xc0\rL\\xb7\x16<\x14\\x8d\\xeb\x1c\\x90\\x92\\xcf\x1fO\\xf9\\xf7\\xac\\x92\x03\\x90Z\\xb8\\xef\x08\\xb7G\\xef\\xb7\\xfe^\\x86\\xe1\\xe2\t\\xa6\\xfd\\x83-\\xae\n\\xf9$\\xf3J)Sx\x14\\xb8\\x85\\xbcl\x16\\xb8\\xf7\\xbc\\xc2\x1d\\xbbZ\\xf8\\xa6\x1b*""\\xf9%%Vp<ܾ\\xa3b8\\xbf\\xd1""\\xaf\\xa2\\xdf嘜\\xbb\\xfeB\\x9b\x15\\xb1\\xe9V~\\xa3\x0c\\xa2\\i+\\xed\\xec)7\x1a/\\x85\x90\\x9a\\x9c\\xc6[裒\\xc9\x08Ux\\xb5A\x02\x03\x01\x00\x01\\xa3\\x82\x04\x150\\x82\x04\x110\\x82\x01\x7f\x06\n+\x06\x01\x04\x01\\xd6y\x02\x04\x02\x04\\x82\x01o\x04\\x82\x01k\x01i\x00w\x00\\xdd\\xdc\\xca4\\x95\\xd7\\xe1\x16\x05\\xe7\\x952\\xfaǟ\\xf8=\x1cP\\xdf\\xdb\x00:\x14\x12v\n,\\xac\\xbb\\xc8*\x00\x00\x01\\x90\\xbbo\\xea\x18\x00\x00\x04\x03\x00H0F\x02!\x00ˈ\x14\\xcc\\xee\\xed\\xf3\\xa3\x06\\xd3ȈU,S\x17R*\\xc0\\xfc\\x97\x1e\\xa8Wx\\xbb\\xe5g\\xbf\\xb2\\xe7P\x02!\x00\\xdbH\t\\xa0Ǜ\\xc2\\xef#\\x8c\\xfd 8\\x89H\\xef\\xf6\\xa9\\xfd\x13W0\\xe9\\xd8tP\x027cd\\x96\x1b\x00v\x00}Y\x1e\x12\\xe1x*{\x1cag|^\\xfd\\xf8Ї\\\x14\\xa0N\\x95\\x9e\\xb9\x03/\\xd9\x0e\\x8c.y\\xb8\x00\x00\x01\\x90\\xbbo\\xe7\x1a\x00\x00\x04\x03\x00G0E\x02 u\\xe4\x05\\xeeրۓ\x1bj\\x8b\\xe6q\x14\\xbc\x17\\xbd\rh\\x95\\xb5\\x97#\x1e\\x90\\xeb_M\\x8b\\xa9\\xe10\x02!\x00\\xb5(\'\x13V\\xf5cawDѯ\\xd9\\xfb\\xad\x00\\x84""U'
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60784
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdcd
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760440464
+        ack       = 2448462710
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0xfb8b
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 62898
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0xa8c
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700520609
+        ack       = 2768765767
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16387
+        chksum    = 0x9658
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 62899
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0xa8b
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700520609
+        ack       = 2768766599
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0x931b
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 62900
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x6ca
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700520609
+        ack       = 2768766599
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0x6b64
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x16\x03\x03\x17\x04\x02\x00\x00f\x03\x03f\\xbd\x0f\x17\\xec\\x9a\\xf3Ę\\xaf\x1b\x18\\x83\\xaf\\x82\\x8c\\xab\x06\\x86M \x1e\\x89m\x02\x1a\\xefqUie\\xbb <\r\x00\x00\\x8c\\xce<\tz\t\\x8c\\xd0\x17\\xb2Q{\x05\\xea\x14\\xf4%\\xb8\x11\\xc5\x13d\\xa5\x05ƾ\\x86\x02\\xc00\x00\x00\x1e\x00\x05\x00\x00\x00#\x00\x00\x00\x10\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\\xff\x01\x00\x01\x00\x00\x00\x00\x00\x0b\x00\x0e\'\x00\x0e$\x00\x08n0\\x82\x08j0\\x82\x06R\\xa0\x03\x02\x01\x02\x02\x133\x00{y\\xc3\\xdbsrM|8\\xf6B\x00\x00\x00{y\\xc30\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x000]1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x1e0\x1c\x06\x03U\x04\n\x13\x15Microsoft Corporation1.0,\x06\x03U\x04\x03\x13%Microsoft Azure RSA TLS Issuing CA 030\x1e\x17\r240716115627Z\x17\r250711115627Z0i1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x0b0\t\x06\x03U\x04\x08\x13\x02WA1\x100\x0e\x06\x03U\x04\x07\x13\x07Redmond1\x1e0\x1c\x06\x03U\x04\n\x13\x15Microsoft Corporation1\x1b0\x19\x06\x03U\x04\x03\x13\x12edge.microsoft.com0\\x82\x01""0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x01\x05\x00\x03\\x82\x01\x0f\x000\\x82\x01\n\x02\\x82\x01\x01\x00\\xb4\x7f\\x99X\\x97\\xa7\\xe7\x13\\xc5Pn !b0\\xec\\x9e\\xf1H\u05fftt4%\\xee\x0b\x0f\\x92\x00g\x17Y\\xf9\\xecg\\xf2\\xdf\\xfbDW\\x94\\x87u\\xbez\\x84z\\xfau>\\x9f\\x96枠\\x82\x1a\x1b\x18\\xbd=\\xf28\\xae\\x80>F͎\x198\\xc6\\xee\\xa3ǹ\\\\x8d\\xbcC\\xe6\x0cq\x0e\\xa0\x11\\x9e\\x9f\\x80b\\x81J3\\xaf\\xf7\\xee\\xa7\x12\\xc1\\x8b\\xd6R\\xbd\x01=O\x1d\x11\x08X\\xca7\\xab\\xac|\\xc0\\xc4\\xe4\\xe3\\xc0r\\xd2\\xe1\\xeeE\\x95\\xcb\x12d\u07fc!\\xc0\rL\\xb7\x16<\x14\\x8d\\xeb\x1c\\x90\\x92\\xcf\x1fO\\xf9\\xf7\\xac\\x92\x03\\x90Z\\xb8\\xef\x08\\xb7G\\xef\\xb7\\xfe^\\x86\\xe1\\xe2\t\\xa6\\xfd\\x83-\\xae\n\\xf9$\\xf3J)Sx\x14\\xb8\\x85\\xbcl\x16\\xb8\\xf7\\xbc\\xc2\x1d\\xbbZ\\xf8\\xa6\x1b*""\\xf9%%Vp<ܾ\\xa3b8\\xbf\\xd1""\\xaf\\xa2\\xdf嘜\\xbb\\xfeB\\x9b\x15\\xb1\\xe9V~\\xa3\x0c\\xa2\\i+\\xed\\xec)7\x1a/\\x85\x90\\x9a\\x9c\\xc6[裒\\xc9\x08Ux\\xb5A\x02\x03\x01\x00\x01\\xa3\\x82\x04\x150\\x82\x04\x110\\x82\x01\x7f\x06\n+\x06\x01\x04\x01\\xd6y\x02\x04\x02\x04\\x82\x01o\x04\\x82\x01k\x01i\x00w\x00\\xdd\\xdc\\xca4\\x95\\xd7\\xe1\x16\x05\\xe7\\x952\\xfaǟ\\xf8=\x1cP\\xdf\\xdb\x00:\x14\x12v\n,\\xac\\xbb\\xc8*\x00\x00\x01\\x90\\xbbo\\xea\x18\x00\x00\x04\x03\x00H0F\x02!\x00ˈ\x14\\xcc\\xee\\xed\\xf3\\xa3\x06\\xd3ȈU,S\x17R*\\xc0\\xfc\\x97\x1e\\xa8Wx\\xbb\\xe5g\\xbf\\xb2\\xe7P\x02!\x00\\xdbH\t\\xa0Ǜ\\xc2\\xef#\\x8c\\xfd 8\\x89H\\xef\\xf6\\xa9\\xfd\x13W0\\xe9\\xd8tP\x027cd\\x96\x1b\x00v\x00}Y\x1e\x12\\xe1x*{\x1cag|^\\xfd\\xf8Ї\\\x14\\xa0N\\x95\\x9e\\xb9\x03/\\xd9\x0e\\x8c.y\\xb8\x00\x00\x01\\x90\\xbbo\\xe7\x1a\x00\x00\x04\x03\x00G0E\x02 u\\xe4\x05\\xeeրۓ\x1bj\\x8b\\xe6q\x14\\xbc\x17\\xbd\rh\\x95\\xb5\\x97#\x1e\\x90\\xeb_M\\x8b\\xa9\\xe10\x02!\x00\\xb5(\'\x13V\\xf5cawDѯ\\xd9\\xfb\\xad\x00\\x84""U'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 62901
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x6c9
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700521569
+        ack       = 2768766599
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0xc7cc
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\\xe4\\x83t\\xf9\\xf8\\xbd\\xab\\x97\\xe7\x03\\x99T:\x00v\x00\x1a\x04\\xffI\\xd0T\x1d@\\xaf\\xf6\\xa0ÿ\\xf1\\xd8\\xc4g/N\\xec\\xee#@h\\x98k\x17@.܉}\x00\x00\x01\\x90\\xbbo\\xe7\\x94\x00\x00\x04\x03\x00G0E\x02 \x05*kϡ\\x8f\\xbb(\\xf5\\xfe\\x84\\xd5\\xe4w6\\xb1gS}\\xa9\\xbf\\xdc \\x80\\xfcxqg\\xa0\\xbf\\xaa\\xb8\x02!\x00\\xd3\\xfc\\xb1y\\x84>\r\\xb3\\xf6\\xa0\\x9aw.\n\t\\xb3\\x97m\x7f\\x9b\\x96\\x97\\x9fK\\x9b\\xd7\x10,\x17\n\\xc6\\xd70\'\x06\t+\x06\x01\x04\x01\\x827\x15\n\x04\x1a0\x180\n\x06\x08+\x06\x01\x05\x05\x07\x03\x020\n\x06\x08+\x06\x01\x05\x05\x07\x03\x010<\x06\t+\x06\x01\x04\x01\\x827\x15\x07\x04/0-\x06%+\x06\x01\x04\x01\\x827\x15\x08\\x87\\xbd\\xd7\x1b\\x81\\xe7\\xebF\\x82\\x81\\x9d.\\x8e\\xd0\x0c\\x87\\xf0\\xda\x1d]\\x82\\x84\\xe5i\\x82\\xf3\\xa7>\x02\x01d\x02\x01&0\\x81\\xb4\x06\x08+\x06\x01\x05\x05\x07\x01\x01\x04\\x81\\xa70\\x81\\xa40s\x06\x08+\x06\x01\x05\x05\x070\x02\\x86ghttp://www.microsoft.com/pkiops/certs/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2003%20-%20xsign.crt0-\x06\x08+\x06\x01\x05\x05\x070\x01\\x86!http://oneocsp.microsoft.com/ocsp0\x1d\x06\x03U\x1d\x0e\x04\x16\x04\x14\\x8b.\\x97\\xecL\x1d\\xa2\\xa3\\xa7\\xbe\\xb3\\.\\x82\\xd6\\xe7\\x97,\\x8fh0\x0e\x06\x03U\x1d\x0f\x01\x01\\xff\x04\x04\x03\x02\x05\\xa00\x1d\x06\x03U\x1d\x11\x04\x160\x14\\x82\x12edge.microsoft.com0\x0c\x06\x03U\x1d\x13\x01\x01\\xff\x04\x020\x000j\x06\x03U\x1d\x1f\x04c0a0_\\xa0]\\xa0[\\x86Yhttp://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2003.crl0f\x06\x03U\x1d \x04_0]0Q\x06\x0c+\x06\x01\x04\x01\\x827L\\x83}\x01\x010A0?\x06\x08+\x06\x01\x05\x05\x07\x02\x01\x163http://www.microsoft.com/pkiops/Docs/Repository.htm0\x08\x06\x06g\\x81\x0c\x01\x02\x020\x1f\x06\x03U\x1d#\x04\x180\x16\\x80\x14\\xfe\tq@U\x05\x10Dؤ\\x81u\\xb8\\x9e\x1a\\xe9J\x06\\x88\\xc80\x1d\x06\x03U\x1d%\x04\x160\x14\x06\x08+\x06\x01\x05\x05\x07\x03\x02\x06\x08+\x06\x01\x05\x05\x07\x03\x010\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x00\x03\\x82\x02\x01\x00!Lm\x17\\xe8\\xadU\\x9d\\xc7ip!\\x8cUNaL\\xf3\\xd1\\xfckE\\xe4d\\xe0\tz\\xb5-\\xf8\\xfeG\x13\\x8b̤n\\x92?&7\\xad\\x8a\x1c\\xd0\\xcd\x08\\x85\\x95.h\x18\\xbf\x175Q\x10\x7fu\\xb6{-_\t\\x87\\xcc\x1bi\\x86KQ]\\xd01 \\xaf\\x86F9\\xb5\\xa1\t\'\\xb9S\x10wT\\xa0\\xe8\\xe8\\xe9\\x99S`V\\x90C\x03\\xc7(\x00\\xf3\'G\\xaejU\\x84\\xb3\\xf8\\xcfZ\\xaeh\\x81\\xbeE""\\xf9\\xa0\\xa6,\\x81\x08!g3\x00\x15\x17\\xea\x15}\x0b\\x94\\xd6\\xcc\x04\\x8e\x19մ\\x87\\xe3\x12\\xb2\x1ex\\x93\\xa17\\xb4'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 62902
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x6c8
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700522529
+        ack       = 2768766599
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0x6feb
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\\xe1w\\x9dɗ\\xadc\\xe3<?qڄ\\xbc\\x88\\xe5z\\xa0#\\xfaƬ2\x05/\\xc3\\xe7擀&\\xfa)G\\xdb:\\xcfK)\tmÉ\x07\\d\\xa9T\\x93-2\'F\t""\x19x\\xfc\\xc7$x<\x14A\\xf9\\xd4""\\xdb\\xeb\\xc2\x01\\xf2J\\x93\\xe3OM\\x89\x0e\\xd0;C\\x87\\x99\\xda\\xddؼ\\xc71\\xf5_\x025\\xdc}\u05f5\\xc4\\xde\\xc1\\x9b\\xb4lG2z\\xf4;\x11\\xe0=s8\\xed\\xd4\tg\\x84\\xbe&\\xafoz\\xb2\x169٩\x16\\xb3\\xdb\\xfe\\xcd\\xc5PԨ\\xbeMn\\x98,c\\xc9""Q\\xb9/d\\x95\\x89\\xdfC\\xd1\x7fx\\xe5`\\xe5\\xc1\\xf5\\x83U1\x0f\\xc0\\xa2Z\\xcc\\xf6\r\\xb8l#\\xcd\x16\\xdd\\xd3vq\x17:R\\xdc\\xcd\\xc5Z[\\xc29\\xb7\\xf0\\xdd%y\x02JO\\xab\\xfb\\xa8A\\xa3\\xb9/\\xe7v\x8ab\\x8a\\xc1\x11\\x94\\xc0a\\xc8`\\x913P\\xf81\x0f\\xb1\\xb1\\xd7n [\x04\\xfb\\x9e\x12Cb\\xef/\\xdd\x03\\x83>\\xfe\x04-4\\x80{\\x9d\\xd1h\\x93\\xfd\\x8c\x19L\x03\\xd6\\xc33\\xb19R\x7f(6vE\\xf1S!\\xb9\x11\\xe5D\\xf5DhQ\\xa7 \\x9bm\x05\x13\\xc3de\\xcey\\xaf\n\\xe8ļ\x11\\xd6\\xd8-XK<[\\xc7o\x01ŔY(\x19\x13)M\\x81Y\\xde=\\xfc\\x8e\\xb5\\xdf\\xcfz\\x84\x15\x06\\x9f\x17\\x9b\\x8e\\xcf,\\xbb=\\xa8n$&2\x05\\xfaPf\\xfe\x13\\xd6\x1c\\x86zP\\xd0\\xe9""\x11\\xfc\\x81\\xe1\x00\x05\\xb00\\x82\x05\\xac0\\x82\x04\\x94\\xa0\x03\x02\x01\x02\x02\x10\x05\x19e&D\\x9a^=\x1a8t\\x8f]\\xcf\\xeb\\xcc0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x000a1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x150\x13\x06\x03U\x04\n\x13\x0cDigiCert Inc1\x190\x17\x06\x03U\x04\x0b\x13\x10www.digicert.com1 0\x1e\x06\x03U\x04\x03\x13\x17DigiCert Global Root G20\x1e\x17\r230608000000Z\x17\r260825235959Z0]1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x1e0\x1c\x06\x03U\x04\n\x13\x15Microsoft Corporation1.0,\x06\x03U\x04\x03\x13%Microsoft Azure RSA TLS Issuing CA 030\\x82\x02""0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x01\x05\x00\x03\\x82\x02\x0f\x000\\x82\x02\n\x02\\x82\x02\x01\x00\\x94j+oz\\xf9Y\\x8a\\xbc\\x9dq8\\xcc""ݟ\\xaf\\x97\\xa2\\xec\\xbb\\xd0Ƕ\\xdd!Z\x1b\\x80FuBZ\\x9f\\xdc\x11\\xfazҝ\\x99\\x90\\xa1\\xc9\\xd9\r\\xd1u\\xc0o\\xc6,{\x0f\x1a\n,J\\xb6\\xb5^\x0c\'\\xb9\\xc5\x14B\\x9c\\xa6\\x85pK\\xea\\x83g\x12}\\xbaW\x15\\xeb\\xd7\x0e\\xf7\\xdbL\\xad\\x9ew\\xb6\x00H\\xe2\x7f\\xa6\\xfd\\xf5\\xb2ڇwٴ\\xc5fK\nk\x17g\\xcczȌ`\x10eG\\x8c\\x80\x0e\x0b$\\xc0\\x81\\xc42\\xf0\\x8bH\\x8elg\\xdd[\\xb6\x14UAzkO\\xdf\\xc3s\\xba\\xbf\\xfc\\x89\\xdf9\\xb9\\x8e\\xd0>\\xcaH\\xf0J\\xfc\\xa9PA\x04zz>\x1cS \\xac@f\\x96[^\\xd0_\\xd9\\H)\\xbb\\xd4\x18K\\xc2\\xc5`\\xab(\\xd7\\xef\\xfa=(\x12\\xa0\\xe9\\\\xea\\x86\x16\\x95A+o\x10\\xe3˿\\xd0_\\x98\x05F<\x14\\xa3\\xf8\\xad\\xf8\x05#\\x89F\\xf6i\\xf32`\\x8b\\xef\\xa9>\x1e<\\x81\\xb5Ns\\x8a@ƪ\t\\xb8\\x9aSׁ$j\x12\x1d\x02\\xbd\x04\\xbb\\xcf*\\xc1Eh\\x89\t\U000b40ee\\xdf\\xebЕ\x19\\xaeߎ/)\\xcf\\xdfI\\xe7\\xdb<m\\x85\\xbb\\x8e\x0c\\xab\\xa3'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 62903
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x6c7
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700523489
+        ack       = 2768766599
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0xdd34
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\\xdd\\xcb\x08f\\xf87t\x1f$\\xbb\\xab\x07\\xffބ:w\\xddwH\\x86,ɶ\\x8acR\\x81T\x18\\xb9\\xe8\\x99Y\\xccE5\r\\xb4Ā˲x\\xaf\\\\xa3$2\\xee~\t\\xeb=\\x9d2\\x8d\\x8a:\\x9f#""\x16\\xcc\x02hɅ}\\xc9T*ѳͳä\\x80n\x7fHf\\xbc\\x90-м\\x96\\x95\\x85,\\xb7\\x98\x1e\\xba\\xc3\\xf1nC9\\\\xe8K\\x9f\\xbaq\\xfb\\xfc\\xbeGL\x0cO|\\xcde\\x841\\x96\\xc2\\xc3mq\\x98\\xb1\x17D\\xf6<\\""\\xdb>!\x0c\x16di\\xe6\x1e\x18B\\xd6K\\xca\x0b\\xf9\\xc0aʁe\\xcbL@\x1ej\\xfe\\xab\x0f\x1f\\xaevu\\xce\\xf7\\xcc\\xecz\x06\\x9d\\xa0M\\x9a\\xa8\\x90`\\xaf\\xe4\\xf1\\xb1\\x89w+\x8b\\x8eP\\x89X\\x82,\\xc1\r\\x81\\x81\rM6K\\x80Q\x0c\\xcd\\xe8[٨\\xb5U(\\x9c\x19\\xc5\\xf0\\x91\\xd5G\x02\x03\x01\x00\x01\\xa3\\x82\x01b0\\x82\x01^0\x12\x06\x03U\x1d\x13\x01\x01\\xff\x04\x080\x06\x01\x01\\xff\x02\x01\x000\x1d\x06\x03U\x1d\x0e\x04\x16\x04\x14\\xfe\tq@U\x05\x10Dؤ\\x81u\\xb8\\x9e\x1a\\xe9J\x06\\x88\\xc80\x1f\x06\x03U\x1d#\x04\x180\x16\\x80\x14N""T \x18\\x95\\xe6\\xe3n\\xe6\x0f\\xfa\\xfa\\xb9\x12\\xed\x06\x17\\x8f90\x0e\x06\x03U\x1d\x0f\x01\x01\\xff\x04\x04\x03\x02\x01\\x860\x1d\x06\x03U\x1d%\x04\x160\x14\x06\x08+\x06\x01\x05\x05\x07\x03\x01\x06\x08+\x06\x01\x05\x05\x07\x03\x020v\x06\x08+\x06\x01\x05\x05\x07\x01\x01\x04j0h0$\x06\x08+\x06\x01\x05\x05\x070\x01\\x86\x18http://ocsp.digicert.com0@\x06\x08+\x06\x01\x05\x05\x070\x02\\x864http://cacerts.digicert.com/DigiCertGlobalRootG2.crt0B\x06\x03U\x1d\x1f\x04;0907\\xa05\\xa03\\x861http://crl3.digicert.com/DigiCertGlobalRootG2.crl0\x1d\x06\x03U\x1d \x04\x160\x140\x08\x06\x06g\\x81\x0c\x01\x02\x010\x08\x06\x06g\\x81\x0c\x01\x02\x020\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x00\x03\\x82\x01\x01\x00\x01\t1\\xbb\\xa4Q>P\\xf7ʶ!\\xc6\x0fc""UY*0\'\x0b\\xd1\\xfe\x0fD\\x92\\xab\\x88\\xf5#\\xc7M""fxB7\\xb1LK\\xfe\\xdbn\x02J\\xfc\\xb8\\xcd\\xfa}\\x82g\\x91|/+\\x9e\\xba\\xf8\x14\\xde\x14\x16\\x9aX""\n\\x91\\xe0~\\xe3!EL\x1b\\xd1\x02Q\\xc4#\\xd8G\\xf5\\xd5\x15\\xea(\\xe89,\\xadߒ\\x81s\\xfc\\xd6\\xfd\t\\x8b\\xe0\\xe1k=\\xce\\xff1\\x98ML\\xafczX8\x0b\\xb90H\\xc2\\xe9v\\xff\\xba\x1a\\x928\\xfc0\x0eDz(Ȍx\x01\\xd7\\xfd+\\xe6c\\xe6xV\x15\\xc7\\xccB\\xb9\x7f\\xe3\\xef긴~\x0f\\x88|\\xf3\x05\\xc7\\xeaoy4\\x89\x1e\x03\\x96\x18\\x99|9\\xb2\\xe0[\\x8dYq\\x8c\\xf1\\x9a\x0c3\\x8dĝ\x13\x7f\\x99\\xea\\x80p\\xc9\x00\x05\\x98X\\xe2\n\\x9eY\\x96\u0383\x16ޯo{>q\\x8e\t\\xc2)\\x94\\xec)=\\xf2\\xee\\xd4\rJ\\xf5\\xfa\\xd5\\xc0<\\xc0\x1bOzk\\xc2\\xf4\\xf8\\x8bP\nl\\xfbN4G\\xe2\\x9bW\\xe5\\x98}\\xa7\x16\x00\x06\\xfa\x01\x00\x06\\xf60\\x82\x06\\xf2\n\x01\x00\\xa0\\x82\x06\\xeb0\\x82\x06\\xe7\x06\t+\x06\x01\x05\x05\x070\x01\x01\x04\\x82\x06\\xd80\\x82\x06\\xd40\\x81Ţ\x16\x04\x14\x7f+\\xe0\n)\\x88\\x87\\xf6\\xbc\x07\\xa2\x1a\\x94/\\x95ˇ\\x83D\\xa0\x18\x0f20240808204735Z0\\x81\\x990\\x81\\x960L0\t\x06\x05+\x0e\x03\x02'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 62904
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x6c6
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700524449
+        ack       = 2768766599
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0x5a02
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x1a\x05\x00\x04\x14\\xb3O\\xfc\\xea\\xc1ʍ\\xbe\x13\\xfd\\x8b\\x878\\xb0#\\xf3ؖ\\xf3\\xac\x04\x14\\xfe\tq@U\x05\x10Dؤ\\x81u\\xb8\\x9e\x1a\\xe9J\x06\\x88\\xc8\x02\x133\x00{y\\xc3\\xdbsrM|8\\xf6B\x00\x00\x00{yÀ\x00\x18\x0f20240808181212Z\\xa0\x11\x18\x0f20240816183212Z\\xa1 0\x1e0\x1c\x06\t+\x06\x01\x04\x01\\x827\x15\x04\x04\x0f\x17\r240812182212Z0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0b\x05\x00\x03\\x82\x01\x01\x00\x00\\xa0e\x11\\xb6\\x96\x05\\xcf?\x7f\\xf3֡\\xabF\\x98HQ!\\xa6\\x9c~ose{\\xbbi6\x02\\xd1XdW\\xa6\\xff\x01m\x0f\x06\\x86\\x97H9](\\xb9\\xd0r\\x95M\\xdfb\x0f\x1a\\xf8#&S@s\x7f!rMW\\x93\\xee\\xd6i\\xf1}\x03ddU\\xa4\\x8bC\x15+\\xff\\xe4\\x8a\\xd2\x12\r""\\xa5$\\x94\\xa4\\xc4\x17l\\x86fE\\xd1鸺\\xa5\\xa03,\x0b\\xe0n<\\xb8\\x98\x15Ӆ\\x91\\xc2ћ6\\xd1i\\xd4~\\xb2Q\\x9erl\\xe4\\xe4)r""=w\\x9ddż\\xf3\n\\x9ej\\xad\\xf5\\xcf[^\x15ܗ\\xfb^g+\\xbd\\xaa\x19\\x93\x05\x0e\\x84B\\xb3\\xc6H\\xf3\\xad\\xbcn\\xb7\\xd1\x10\\xac\\xd5`e\\x93\\xe9\\xfdG\\xfdߎ\\xa9\\xd8o\\x81>\\x9d~\\x81\\xf6\\x82\\xe1W\t\\xbc\x7f\r\\xf7\\xf9\\x8co\\xbd\x11\\xfa\\xaf\\xb9\\x89\\x9d\\xb1!\x0c\\x90\\xc7\x17 4l2\\x8bf\\xfd\\x97BMC\\xf5X\\xcf\x00\x0e(\\xce\'\\xb7i\\xefM\\xc1\\xb7\\x8b\\xdf\\xd5-\\xe4\\xd6\\(\\xdb>j\\xf6\\xb5\\xa0\\x82\x04\\xf40\\x82\x04\\xf00\\x82\x04\\xec0\\x82\x02Ԡ\x03\x02\x01\x02\x02\x133\x00\\x8b\\x81\\x82\\xccCF \r^\x1be\x00\x00\x00\\x8b\\x81\\x820\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x000]1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x1e0\x1c\x06\x03U\x04\n\x13\x15Microsoft Corporation1.0,\x06\x03U\x04\x03\x13%Microsoft Azure RSA TLS Issuing CA 030\x1e\x17\r240807155024Z\x17\r240906155024Z0\x1f1\x1d0\x1b\x06\x03U\x04\x03\x13\x14AzureRSA03 OCSP Cert0\\x82\x01""0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x01\x05\x00\x03\\x82\x01\x0f\x000\\x82\x01\n\x02\\x82\x01\x01\x00\\xb1\\xa5fڱ\\x91\r橡\\xb5\\x8f?\\xaa\x16\\xaa\x1d\\x822c\x18p\\xebA\x04\\xbab\x0b\\x97\\xc0\x0c\x16B\\xec\x00\\xf7\\xf1\\xf9\\xbc\\xc2\\xe8r91p`A\\xe0a\\xabY\x15Sru\\x8eM\\xc7\\xe7\\xf3\\x9d\x15\\xd8\\xf5߹\x0f\\xb3\\xf8\\xec\\xf7\\xbb\\x9cR\x10\\xe4^\\xda\x1e&\\xf6\\xa1\x1b\\x9a\\x97\\x97\\xb6\x7fg\x0eQ\x1dl\x12\x14\\\\x8b$\\x8e+\\xf5\\xdd\x17\x15\\xef\nM\\xf5K\\xce9wq5#\\x8b\\xf2e\\x9c\\x9a\x1aB\\xbd\x08\\xb4p\\xddȼ\\xbd\\xa1\\xe0#6\\xee\\x9a\\xee\\x93H\x7f\\x99J\\xdf \x17f\\xefvIX\\xa7\\x82\\x82_\\x96\x0e\\xa6]E\\xd3\\xf4\\xce\x03\\xaf\\xaf\\x96_\x01\\xbcDjj\x15cx?\x13\x1f\\xb3""\\x90\x0ea\\x97@|\\xf7\\x90Y\\xc0u\\xd3gk\x17h=0ڹ \\xeb]\\x80\\x86\\xbd\\xd4\\xffl\\xcf\x03\\xb2\\x9dKSҔ\x05W\\xf3?\\xf9\\xa0jR\t\x12\\x8a\\xed\x1dߖYg\tQH//Rg\\xc5\\xe9\\xc8\x06\\xcbJK\\xb4\\xaf{m\\xdbj&\x05\x02\x03\x01\x00\x01\\xa3\\x81\\xe20\\x81\\xdf0\x0c\x06\x03U\x1d\x13\x01\x01\\xff\x04\x020\x000\x13\x06\x03U\x1d%\x04\x0c0\n\x06\x08'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 62905
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x6c5
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700525409
+        ack       = 2768766599
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0x72f2
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '+\x06\x01\x05\x05\x07\x03\t0\x1d\x06\x03U\x1d\x0e\x04\x16\x04\x14\x7f+\\xe0\n)\\x88\\x87\\xf6\\xbc\x07\\xa2\x1a\\x94/\\x95ˇ\\x83D\\xa00\x1f\x06\x03U\x1d#\x04\x180\x16\\x80\x14\\xfe\tq@U\x05\x10Dؤ\\x81u\\xb8\\x9e\x1a\\xe9J\x06\\x88\\xc80\x0e\x06\x03U\x1d\x0f\x01\x01\\xff\x04\x04\x03\x02\x07\\x800<\x06\t+\x06\x01\x04\x01\\x827\x15\x07\x04/0-\x06%+\x06\x01\x04\x01\\x827\x15\x08\\x87\\xbd\\xd7\x1b\\x81\\xe7\\xebF\\x82\\x81\\x9d.\\x8e\\xd0\x0c\\x87\\xf0\\xda\x1d]\\x83\\xd9\\xd7""\\x81\\xf4\\xde\x1f\x02\x01d\x02\x01\x170\x1b\x06\t+\x06\x01\x04\x01\\x827\x15\n\x04\x0e0\x0c0\n\x06\x08+\x06\x01\x05\x05\x07\x03\t0\x0f\x06\t+\x06\x01\x05\x05\x070\x01\x05\x04\x02\x05\x000\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x00\x03\\x82\x02\x01\x00N\\xc2\\xcaЉ|\n\\x8eF\\xa1\\xde\x01W\\x87s\x19\\xf9\\xe5nk[\\xb2 X\x04\\x9f7%Id\\xac\\xe4\\xaf\x0f\x157+\\xaf\\x91Y\\xb1\\xddH\\x98B\\x82\x1e\\xf3U~\r\\xcd˒\ti\\x9dr\x0e\x0f\\x8dy0\\x9a\\xba\\xb3\\x88\x008\\xa1Vn,\\x8b\x14\\xa4O\\xec\\xea\x04\\\\xe4\\xf5\x18\\xc1\\xf2\\xe8\x0f\\xe8|(4\\xa4\\xab\\x80ԑ3\\xd0\x0er\x7f\\xdb\x1d\\x9cڤ\\xa2\\xea\\xf1\x17\\x83\x12\\xfd\\xf3\\x88\\xfa\\x9fL\\xd4eբj\x15\\x8b3\\xdbԈ\\xae\\xec\x04\\xb6J\\xf4\x1a\x05\x0b\\\\xdd2\x1a\\x91q\\xd0\\xf1,T\x08\x16\\xa3\\xd64\\xa2\\x95\\xe5\\xc2(\\x96\x13v*p\\xd2M=\\xf7E\\xb9\\xf4\\xf6\\xe91\\xb0\\xcf\x03\\xfa\\xbaa\x0bLȶ\\xa9\\x8c\\x98\\xf3,\x1c\\xad9\\xc7u\\xc0\x11\\xae{˗\\x98\\xb1=\\xe7)\\xb7\\xe7\x16@(1P\\xe0\n\x19x\x05\\xf4I%Zݚ\\x86\\xa5J\x08+\\xd3ێ\\xca\\xf4\\xd7ލ\\x93\\xa2%\\xe6;\x0f\\xca\x7f\\xf3\\x84\x12Sx\\xa3\\x97l\\x8e,\\xd2h`\\xe34L\t\\x93\\xa0\\xed9%\x12\\xfd\\xaa+\\x8b\\xf0U~0\\xcb\x06E=zF\x072֠U\x10\\xac\\xf5\\xeb\\xaeL\\xdf\\xd9\x1a\\xd0\x04\\x88\x00\\x98\\xb1\\xabY\\xe0\\xec\\x88\\xc5\\xd7\\xdfFq\\xe8J(d&C""\\xcc\\xfa\\xd2\x1a>J\x04\\xc3\\xf3{\\x88\x1a7\\xdcd\\xbf\\x9b^\x11\\x9c\\xdd(\\xf1\\x8a-\\xe3tԁ\\xb7\\xfdVt\\x93\\xa4;~\\xa6R\\xaa\\xf6\x1c\\xec\\xceu\\xfd\\x88\\x8a\x11 \\xa8\x04\\x84c\\xe8\x0ey\\xd1c\\x95\\x90\\xcd\\xc5\\xf3Pf\\x90jZ/\\xf8\\xe2\\xb0ZqI\\xbfQx\\xf7\\xb8\\x816\\xd0:[\\xe4(\\xc5wǛ\\xf3\x0f!L6\\xa6\\xad\\xa5\\xdfx\x02\\xcbR\\xfc\x16H-L\\xe72QI\\xa4UO\\xb6;\\xd7F\\xea\\xe7\\xbe\\xfe0\\xf5!O.0i\\xf2\\xbaa;\\xdc\x1bړ\\xe8\\x81\\xdf\\xd1n\\x88\\xf5\\xa7\x01T\nw\x16\x07\\xb1\\x9a\\xdd\\xf7k&n\\xb2\\xc8H\x12f\\xb1\\xa7\\x92\\xf4\\xc9_\\xb3\x05\x1b\\x93\\x8c\\xbc+\\xa1\\xc0\\xfe\x02\x04\x00f\\x82ܭ\\xd3\\xc6\x1b\\xa4\\x85\x0c\x00\x01i\x03\x00\x18a\x04ъ\\xfe\\xabtEa\\xaeF\\xb7\\x88\\xd19\n\\xf9\\xb2\x0f-Ѯ\x17\x12ͭ\\xd8\\xc1}\x13+1\\x96;\\xd2\x08\\x9cl\x87\\xae\\x95\\xe4R\\x946\x0e\\xb97\\x8a\\xdfB\\xb1l\\xd0\x0c\\x9f\\x87\\xee0\\x97\\xd0\\xd0h\\xa8\\xfdw\\xb9ԙ\\xfb\\xd1M\\xc8\\xf6`\\xe1\\xb1\\xe1\\xef\x1dcT\\xab\\xaf\\xebF\\xc1\x05\\xb2¿\\x94C\\xe4g\\x94\\xcf\x08\x04\x01\x00\\xaaC\x18\\xc79\\xa6\'\\x8a.\\xfe\x11F\\x9f\\x91\\xa7\\xa0\\x83\\x9f\\x8b\x00\\xec߮\\x9bv3\\x94\\xb7\\xf6ّS\\x86\\xe7\\xbc0\x1d\x01}\\xccmx\\xc0Yd\\xe22Gɖ@\x7fe͂\\xa0f0ׅ\x1c2\\xf3\x03\x0f&\\xe6\\xedE""eӰF\\xa9\\xfe0A\\x8d\\xcb?\\x8akm\x10J\\xe3#\x1d\\xd3A\\xf09\\xfc9\\x8bap\\xb4\\xadπ\\xda\\xcd%\\xfbw\\xd2\x16\x1eӶ:\\xd3{\x1c\\xd0\\xf8/\x00\\x99""\\xd8'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 177
+     id        = 62906
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x9fb
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700526369
+        ack       = 2768766599
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16384
+        chksum    = 0x8655
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '(nx\x1bB\\xb1\x08\\x84\\xa0\x03\\xd1\x02Z\\x813\x03\x1c\\xcbh{\\x8d%~\\x9fqM\\x99\\xa4\x1f\\x97\\xaf\x1d\\xa1/Ш=\x12r \x10\\xa9\x16\\xdf\\\\xa89\x02]\\xe3U\\xff\\xdd\\xff\\x82\\xd1.\\xcd8e`ݍ\x7f\x1a\\xee7\\x8bM=\\xd7\\xe6!\\x91\\xae2\\x87\\x91\\x9b\\xfc\\xbd\x07\\xd61\\xac\\xe8f\\x9al\\xe5\\xc6M\\xc0\\xa3HkC\\xe0\x0f\x04Y9yx\\xdc\x17RT<N؞\\x83\\xaf}k\\xf9\x00\\x8d\\x94\x0b\\x8b\\xbc\\xb0ٲ\\xd4\x00~{k/\\xba\x0e\x00\x00\x00'
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60785
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdcc
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768766599
+        ack       = 1700526506
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0xbb10
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https PA / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 198
+     id        = 60786
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfd2d
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768766599
+        ack       = 1700526506
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 258
+        chksum    = 0xb364
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x16\x03\x03\x00f\x10\x00\x00ba\x04\\xfb\\xca\uee50P\x05!g\\xfe\\xcb\\xf5?\\x84)\\xd7e=\\xc6Ҫ\\x96\\xf5\\x99\\xf1\\x89C\\x82\\x9e?\\x96\x1fO\\x84\\xc9G\x13\\xb6\x03\x1f\\xa6\\xd9 \\x82\x11U\x07\\xf8`\\x93\\x89\x14\r\\xb8\\xcb\x1a\\xa5\\xf7\\xb1\\xb0zE\\x80\\xc3\x0f\\x90\\xdbj2~\\xebB\\xd3\x02\x1e\\xb4fQ4\\x95\x03\\xf9\\xa0l\\xfc\\x80\\xfcBt{\x05RĜQj\x14\x03\x03\x00\x01\x01\x16\x03\x03\x00(\x00\x00\x00\x00\x00\x00\x00\x00<\\x96\x00\\xb6\x15+\\xc8p*\\xcbCs\\xc8\\xce:\x12\\x95\x01\x1e\\x90Z\\x8bĀ\\xd6\\xf1N\\xceT\\xba\\x80\\xdd'
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https PA / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 139
+     id        = 60787
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfd67
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768766757
+        ack       = 1700526506
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 258
+        chksum    = 0xf8d0
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x00^\x00\x00\x00\x00\x00\x00\x00\x01\\xf9\\x80:\\x86\x05\\xe2d\\xbe>ky\\xad\\x964P\\x85\\x96>O\x05n\x0c\r\\xa8\\xffI\\xe2\\xa1,3\\xa5\\x91\\xcaY\x7f\n\t\\xfdC\\xe2\\xd98w%5\x1a\\xb6\\x88\x02\x1eg\\xa4Q\\x99\\xea\\xf6\\xf2\\xd8G\\x9b\\xde\\xe2虣M\\x94\\x89}\x01.(\\xc4Y=\\xd3o\x18_\\xcc`(-\x07$Z'
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https PA / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 641
+     id        = 60788
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfb70
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768766856
+        ack       = 1700526506
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 258
+        chksum    = 0x44cd
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x02T\x00\x00\x00\x00\x00\x00\x00\x02g\\xd3/?\\xfdL\x19ݨY1\\xb6\x03\\x82ݻ\\xa4X\\xa4\\xc92%Aj\\xe58\\xee@!\x15p\\xc58^<\\xb9q$|N!tA\\xb0%.\\xea\\xdf\\xda7q\\xf6\\x8a\\x97\x12\\xe9֬\x1a\\x9aw\\xf7r\\xb3\\xbcA\\x80&8ど\\xc8t).\x12\x11\\xf7\\xba\\x93\x0f\\x98-\\xf9\\xa1\\xbbJS\\xc9\x17\\xf9\\xa3\\x95s-r#Sf\\xa3H\x04\\xaex\\xe3\\xb9\x18\\xb53\x0fԨ\\xb3\\x9eӸU\\x85S\\xe4\x07\uf2c7ű\\xc3\\xf0\x17\x0bk,\\xd9\x14\\xe5\\xf5\\x98\\xbd\\x9dT\\x9awӪè\\xab\\xa8\\xd9(\\x83\tM\\x96]\\x9dp?\x06\\x97\x0f\\xed\\x98$\\x84U\\x94\x18F\\xfe\\xe6\\xfd\\xa4\x04\\xb0={\\xed\\xc4ݙ\\xcc\\xcaѻ\\xfc\x06X(F\\x8eZ\x06\\xcea\\x99{$\\xa3\\xb9HG\\xf7I6\\xa1r\\xd0Mn2uM\\x89T\\xb8\\x916\\xa3\u05ed͚\\xb67\\x8d\\xea$A,OTG\\xb1nڦ\\xe9\x1c\nw\\xeeC~\\xbbN\\xbc\\xfa\\xa2\\xc8J\x0b\\xe1\\x90pUX\\xedb\\x81\\xa2\\x9c-\\xbf\\xff\\x81\\xfdP&\x1b\\xed+\\xb0\\xc5\x11!\x17\\xc8ַ\\xe3\\xfb;M\\xaa\\xa8\\xa2\\xb8\\xa2E@~\\xff\\x91\'\\xf5)?\\xcc""\\xebv\\xcb4\\xda\x17\\xc4V-\\xf5""\\xb2:\\xe4AD\\xbd\\xf0l\\x9d\\x94\\xe6q\x02\\xb9\x0e[Z\\xeb\\xf7\\xd6\\\\xdaU\x1c\\xbb\\xb9Փ\\x88[\\xfaۼْ\x1a\\x87]Q\x15\\xfd\\xc9i\x15\\xa7\\xda;8\\xc2=\\xa1G!\\xa4\\xe4|\\xd0B\x1dq\\x83R\\x8a~q.=\\xba\x1f\\xed\t\\xb4\\xa5F\x00G\x11\\x8c\x0blry\\xdaR\x17K~\\x80\\xc7\\xff\x7f\x19\\x87\\xe3\\xfff\x16\\xe7\\xdc\x0c\\xef\\x88;\\xc9\\xf8P\\x83\\xee\x12\\xfd\\xfb\\xae\\xfa\t\\xbc\\xd2\\xf7\\xceЭ\\xd4[\\x89\\x9a\\xe4\x13\\xac\\xd5St\\xa9\\xb0\\xc1\\xf8\x1eY\\xd5\\xec\\xc9\x1a\\xad\\xec\\xf6\\xe6\x18\\xdc0a,\'\\xf8{\\xaf\\xea-ؒ\\xe1\x06Ҙ|t\x0b_\\xba\\xea\\x90;\x1b۠\\x9c~ح""\x15ڲ\\x83н\\xc7]衐Ak@\\xd6A¨\\xb1\\x8b\\xf6{w\\x8b9\'\\x85\x11\x1b@1ړ%iA\x08\\x84k\\x9b\\xd6\x12W{T\\xca\\xd54\\xc1,(3U*嗳\\xee\\xd7\\xd1q\\xff\\xd2,f\'\x16\\x8ba\x05X\\x98z\x03\x1d)@c\\x9e\\xa8}R=\\xbd#B\\xea\\xc8v\\x8b\\xee\\xa8\\xe6k\\xbcm\\x8d\x7f\\xbf'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 382
+     id        = 62908
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x92c
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700526506
+        ack       = 2768766757
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16387
+        chksum    = 0xfbf
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = ""\x16\x03\x03\x01\x1e\x04\x00\x01\x1a\x00\x00\\x8c\\xa0\x01\x14\x00\x00\x00\x00'K\\x81\\xe7\\xf6\\xba\x19C\\x89\\xed J\x05\\xdf\\xf2\\xb3\\xfd\\xc30\\xc4o\\xab\x7f\x1a\\x91<zT\\xe9ٰ\\xc6(\\x90\\x86\x04\\x86\\xad\\xcbb\t$\\x87\\xf0\\xbe\x0b\\x8eO<k\x1fۂm\x17S\\x80Cl\x0f9\\xa8\r\\x81\x1d\\x9d`\x0b\\x8e\\ފ\\xe4\x19ֶ\\xab\\xd6\x1d\\xd7\x0c\\xa8\\xa2\\x91x\\xa7nȆb\\xb4\\xc4V\\xe3\\xc0geK:\\i\x10\\x82ҙ\\xf3,\\x85l\\x81z\\xb3\\xf7\\xdbr\\xf3\\\\xf9\\xb5\\xe56\\xc6\\xe7\x7f\r\\xd4=~\x01o\x1b,ׅ\x1b++\\x9b\\xfe\\xf6\\x85\x15\x01\x03\\xfa\x05\\xa3\\xaf0訷W\\x82\x02\t\\xa2\\xf3\\xcb\x17\\x88\\x95\\xf5Q\\xcaZt\x1a\\xe4o\\xc5Q\\xb68\\xff\\xb5\\xfb\x13\\xc5Fh\\xf8\x16\\xd4\\xeatԪ\\xd7A\x1a\\xfc\\xb1\\x96\\x87.\\xaaVD\\xdf\\xcd\x08v\\x9385\\xb7Wqr}\\xa3\x03\\xdb_ q\x04\\xb8\\xf3ʋ\\x8c\x1d9\\xd1\x088S))\\xfbc\\xab{\\xd1\\xf1\x1a4\\xe4X\\xdaT 3\\x9d\\xc6\x14\x1e\\xea\\xf2 n\\xbbX\\xc8X\\xe0\x07\\x83Γ\\x98\\xfc\\x87\\xd7\\xd4\r\\xe6\\xebj\x19\x14\x03\x03\x00\x01\x01\x16\x03\x03\x00(\x00\x00\x00\x00\x00\x00\x00\x00\x06D\\xa2\\xe0>\x0b\n\\xbcrU\x01[\\xfd\\xd4\\xfdf\\xb3N\\xa9\x13\x04Ҷ*ʤK\\x9e]\\xf6\\xa4`""
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 109
+     id        = 62909
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0xa3c
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700526848
+        ack       = 2768766757
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16387
+        chksum    = 0x3493
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x00@\x00\x00\x00\x00\x00\x00\x00\x01\\xcfrx\x1b\x06Y\\xd5\\xf5:lN\\xb3\\xe9V\\xea{\'٤\\xfb\r\\x82{\\xe1\\xa2]\\xcf\\xfd\\xff\\xb5\\xa2\\xd6\x10\\xb4O\\xf5\\xd88\\xeb\\x98~\x19eb\\xac\\xa4\\x8b\\xfeC""\\xa7\\xeb=)\\xe3('
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 62910
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0xa80
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700526917
+        ack       = 2768766856
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16387
+        chksum    = 0x7973
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 78
+     id        = 62911
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0xa59
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700526917
+        ack       = 2768767457
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16384
+        chksum    = 0xafcc
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x00!\x00\x00\x00\x00\x00\x00\x00\x02j\x17\\xf6\x07\x02\\xc6\\xf7\\x9dj\\xb1\\x9dbsv訔i?d\\xa2߯%;'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 813
+     id        = 62912
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x779
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700526955
+        ack       = 2768767457
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16384
+        chksum    = 0x694d
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x03\x00\x00\x00\x00\x00\x00\x00\x00\x03\\x98\\xa8\\x9e,\\x9b\\xd0$=\\xab\'\\\\x9e\x02t\x0f\\xadd\\xea\x0c\\xbf\\xf8\\xa3\\xc7\x1c\\xe0k@p\\x9e{\\xc4\\xfa3\\xef\\x8dۿ\x13gN\\xd7QR\\x953\\xf1\tpXXG#Z*\x7f\\x97M>\\xf2\u03a2T\x7f\x12\\xdeiY\\x95\\x96y\x06u\\xd4g\\xd67\\x83~K\\xd4\\xc4\\xe4\\xf6b\\x94ۉd&`\\xbb*\\xda\\xef\\xc6Y\x0f\\xfb\\xe8\\xea\x06.\\xfe\\x8c{\\xda\u07b29{-ǣx:g\\xf2Ɓ\\xd1(R\\xd1X\x1a\x02Ί\\xbb\\xed_Z@Ȍ\\xec\\xc2\\xf4\\xe7iE\x15\\xdc>\\xbb\\xc0\\xaa\\xa0\\xba`H\\x85a\\xe7\\xfb\\xb4\\xee\\x93g\\xf3\\xfaէ\\x82\\xa3fO\\xec\\xf1-\\xe8\\x80\\xf7\\xcduF\x17͛2""\\x8e\\xaeVaMd3\\xfc\\xa8&\\xa5U\\x88.4\'\\xca\\xc3&\\xb5\x10\\x8f\\xefl\\xb4Mw\\xeb2\x0f\\x82ǕS\\x97<\\xb5aZ\t5\x16\\x9f\\xfddӶ\\x89]=\\xb8\\xdb\'R\\xc3d\\x96]\\x8d\x1bR\\x91\\xf4r\\xa6\x1c\\xe13\\xf5\\xa8\\x8c\\xb5D\\xab^\\x91\\xbb\\xf5\\xc6\\xd9\x19\\xc6\x08\x08\\xfb퍂\\x9f\\xaex\\xb8\\xfa\\xe6\\xb9""h\\xe0\\xc3N\\x8a\\xea""ײW\\xefsÌ<\\x8e\\x9a9\\xf2\\xae\x10\x1b\\xe5Wb\'\\xdf\\xdf:\\xb9\\xa6\\xf5d\\xf9\\x83\x00\\x8c\\xdf!\\xa9\\xa5\\x8d\u0530\\xf1\x17\\xff\\xab|\\xafω6T\x003\\xe7|\\xb0\\x8c\\xaa\\x88\\xa8\\x97\\x8c\\xef\\x9eAF\\xa9\\xa1\\xde""k\\x810LR\x15\\xec\\xb9u&xQ\\x92?\\xc9=H\\xd3!\\x8d\\xd1\\xf2\\xa3B\\xd3⭾\x06\x06\x11j\\xb9ό\\xa5%>Yj\\xccM\\x8b\\xf5\\xd8\\xfa\x15o\\xb2X\\xb5\x1a\\xee\\xd5\x1a\\xaei\\x99\\xdd\\xebG\\xef\x07\\xa8\\x8b9M\x0f^S\r\\x85\\x9f\\x89\x18\\x811ޢbp0S\x05\x07\\xe0Wa(dI,\\xae""\\xa5\x04|N\\xc3\\xf0\\xb2c\\x92M\\xde\\xe1\x7f\x08\\xd7\\xfc[\\xc7\\xf8\\x8e\\x90\\x91\x0cֆ\\xbf\x14\\x88\\xf5\\x82$\\xc5q\\x9e\\xe9\x0c\x04G\x16\\xec/kk2\\xbbҖ`\\x9a\\xaf\\x8d\\xdb:8\\xa0\x00ǱY\\xc2X^\\xcf\x07#\\x90\\x86S&\x7f\\xdc\\xfd\\x94\\x89\x0cX\\xb3\\xf3S\\x84ψ\x0fR\\xcc,\\xb5\\xebW\\xfc\\xb97\\xa5w\x00\x12r\\xef\\xf3\\xcc?\\xd1x\x1a\\xb8\\xc0N\\xa1\\xb1\\x80\\x9d\\xb99\\xc9\\xf2\\xe8wL_\\xd8*r\\xa7=D,x\\xd6ʎ\\xe0\\xc9O!\x17\\x83A\\xbb\\xb8>@\\x9d06.\\x83]٪I\x02\\x98\x0c\\x87\\xdf6\\xf793\\xd0T\x1d\x0f\\xeb1E\\x89\x01$U\\xa4z\\xbay\\xa1\x16\\xa0.]\\xf8P=qƄ\x0f\\xf1rF\\xc7\\xc7\x07\\x90\\x85Bh⡢w\\xc2d\\x89\\x93b\\xb8Rb\\x926\\xb2\\xc31\\x9c,\\xde\\xf2\x1b\\x85\\xd3\\xe9\\x89\x1dMD֛\\xecY\\xa3\\x92\x1a\\x83^q\\xe9\x17]R\x0b\\xc2\x195\x11\x02\\xbb\\xc1\\xfc\\xb3\x12\\x97\\xfd\\xaf\\xad\\x80\\x95o\\xba\\xe8\\xfb\\xd1\\xcaD\x0cw\\xb8\\xddȶ\\x8eࣚ\\xbc\\xec\\xe71,4]F\\x98\\xe0\x1b\\x8f\\xbf\x19d\\xac\\xf6\\xbc\\x91O\\x91\\xc0\\xba\x14\\xcb{\x17\\x88l\\xe8\x12\x07ˀ\\x8f\\xd2\x1a\\x99\\xfb\\xa4y<\\x8d'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 78
+     id        = 62913
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0xa57
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700527728
+        ack       = 2768767457
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16384
+        chksum    = 0x11f6
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x00!\x00\x00\x00\x00\x00\x00\x00\x04\\xc2^\\xb1\\xb4\\xac\\xa0T\\xdaG\\xb6;N\\x94wb\\x83ߜ\r\\xf1\x0f\\xc9i=u'
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60789
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdc8
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768767457
+        ack       = 1700527766
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0xb2ca
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https PA / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 78
+     id        = 60790
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfda1
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768767457
+        ack       = 1700527766
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 258
+        chksum    = 0xb3f8
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x00!\x00\x00\x00\x00\x00\x00\x00\x03\x1bm\x07\\xddi0\\x95^\x11\x06\u0602\\xadt\\xcd\\xef\x01\\x93^\x05\\xe4[\\xc4\x05\x12'
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https PA / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 78
+     id        = 60791
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfda0
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768767457
+        ack       = 1700527766
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 258
+        chksum    = 0xb3f8
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x00!\x00\x00\x00\x00\x00\x00\x00\x03\x1bm\x07\\xddi0\\x95^\x11\x06\u0602\\xadt\\xcd\\xef\x01\\x93^\x05\\xe4[\\xc4\x05\x12'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 41193
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5b95
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448462710
+        ack       = 3760440464
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0xf4fe
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\\xe4\\x83t\\xf9\\xf8\\xbd\\xab\\x97\\xe7\x03\\x99T:\x00v\x00\x1a\x04\\xffI\\xd0T\x1d@\\xaf\\xf6\\xa0ÿ\\xf1\\xd8\\xc4g/N\\xec\\xee#@h\\x98k\x17@.܉}\x00\x00\x01\\x90\\xbbo\\xe7\\x94\x00\x00\x04\x03\x00G0E\x02 \x05*kϡ\\x8f\\xbb(\\xf5\\xfe\\x84\\xd5\\xe4w6\\xb1gS}\\xa9\\xbf\\xdc \\x80\\xfcxqg\\xa0\\xbf\\xaa\\xb8\x02!\x00\\xd3\\xfc\\xb1y\\x84>\r\\xb3\\xf6\\xa0\\x9aw.\n\t\\xb3\\x97m\x7f\\x9b\\x96\\x97\\x9fK\\x9b\\xd7\x10,\x17\n\\xc6\\xd70\'\x06\t+\x06\x01\x04\x01\\x827\x15\n\x04\x1a0\x180\n\x06\x08+\x06\x01\x05\x05\x07\x03\x020\n\x06\x08+\x06\x01\x05\x05\x07\x03\x010<\x06\t+\x06\x01\x04\x01\\x827\x15\x07\x04/0-\x06%+\x06\x01\x04\x01\\x827\x15\x08\\x87\\xbd\\xd7\x1b\\x81\\xe7\\xebF\\x82\\x81\\x9d.\\x8e\\xd0\x0c\\x87\\xf0\\xda\x1d]\\x82\\x84\\xe5i\\x82\\xf3\\xa7>\x02\x01d\x02\x01&0\\x81\\xb4\x06\x08+\x06\x01\x05\x05\x07\x01\x01\x04\\x81\\xa70\\x81\\xa40s\x06\x08+\x06\x01\x05\x05\x070\x02\\x86ghttp://www.microsoft.com/pkiops/certs/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2003%20-%20xsign.crt0-\x06\x08+\x06\x01\x05\x05\x070\x01\\x86!http://oneocsp.microsoft.com/ocsp0\x1d\x06\x03U\x1d\x0e\x04\x16\x04\x14\\x8b.\\x97\\xecL\x1d\\xa2\\xa3\\xa7\\xbe\\xb3\\.\\x82\\xd6\\xe7\\x97,\\x8fh0\x0e\x06\x03U\x1d\x0f\x01\x01\\xff\x04\x04\x03\x02\x05\\xa00\x1d\x06\x03U\x1d\x11\x04\x160\x14\\x82\x12edge.microsoft.com0\x0c\x06\x03U\x1d\x13\x01\x01\\xff\x04\x020\x000j\x06\x03U\x1d\x1f\x04c0a0_\\xa0]\\xa0[\\x86Yhttp://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20RSA%20TLS%20Issuing%20CA%2003.crl0f\x06\x03U\x1d \x04_0]0Q\x06\x0c+\x06\x01\x04\x01\\x827L\\x83}\x01\x010A0?\x06\x08+\x06\x01\x05\x05\x07\x02\x01\x163http://www.microsoft.com/pkiops/Docs/Repository.htm0\x08\x06\x06g\\x81\x0c\x01\x02\x020\x1f\x06\x03U\x1d#\x04\x180\x16\\x80\x14\\xfe\tq@U\x05\x10Dؤ\\x81u\\xb8\\x9e\x1a\\xe9J\x06\\x88\\xc80\x1d\x06\x03U\x1d%\x04\x160\x14\x06\x08+\x06\x01\x05\x05\x07\x03\x02\x06\x08+\x06\x01\x05\x05\x07\x03\x010\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x00\x03\\x82\x02\x01\x00!Lm\x17\\xe8\\xadU\\x9d\\xc7ip!\\x8cUNaL\\xf3\\xd1\\xfckE\\xe4d\\xe0\tz\\xb5-\\xf8\\xfeG\x13\\x8b̤n\\x92?&7\\xad\\x8a\x1c\\xd0\\xcd\x08\\x85\\x95.h\x18\\xbf\x175Q\x10\x7fu\\xb6{-_\t\\x87\\xcc\x1bi\\x86KQ]\\xd01 \\xaf\\x86F9\\xb5\\xa1\t\'\\xb9S\x10wT\\xa0\\xe8\\xe8\\xe9\\x99S`V\\x90C\x03\\xc7(\x00\\xf3\'G\\xaejU\\x84\\xb3\\xf8\\xcfZ\\xaeh\\x81\\xbeE""\\xf9\\xa0\\xa6,\\x81\x08!g3\x00\x15\x17\\xea\x15}\x0b\\x94\\xd6\\xcc\x04\\x8e\x19մ\\x87\\xe3\x12\\xb2\x1ex\\x93\\xa17\\xb4'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 41187
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5b9b
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448463670
+        ack       = 3760440464
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0x9d1d
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\\xe1w\\x9dɗ\\xadc\\xe3<?qڄ\\xbc\\x88\\xe5z\\xa0#\\xfaƬ2\x05/\\xc3\\xe7擀&\\xfa)G\\xdb:\\xcfK)\tmÉ\x07\\d\\xa9T\\x93-2\'F\t""\x19x\\xfc\\xc7$x<\x14A\\xf9\\xd4""\\xdb\\xeb\\xc2\x01\\xf2J\\x93\\xe3OM\\x89\x0e\\xd0;C\\x87\\x99\\xda\\xddؼ\\xc71\\xf5_\x025\\xdc}\u05f5\\xc4\\xde\\xc1\\x9b\\xb4lG2z\\xf4;\x11\\xe0=s8\\xed\\xd4\tg\\x84\\xbe&\\xafoz\\xb2\x169٩\x16\\xb3\\xdb\\xfe\\xcd\\xc5PԨ\\xbeMn\\x98,c\\xc9""Q\\xb9/d\\x95\\x89\\xdfC\\xd1\x7fx\\xe5`\\xe5\\xc1\\xf5\\x83U1\x0f\\xc0\\xa2Z\\xcc\\xf6\r\\xb8l#\\xcd\x16\\xdd\\xd3vq\x17:R\\xdc\\xcd\\xc5Z[\\xc29\\xb7\\xf0\\xdd%y\x02JO\\xab\\xfb\\xa8A\\xa3\\xb9/\\xe7v\x8ab\\x8a\\xc1\x11\\x94\\xc0a\\xc8`\\x913P\\xf81\x0f\\xb1\\xb1\\xd7n [\x04\\xfb\\x9e\x12Cb\\xef/\\xdd\x03\\x83>\\xfe\x04-4\\x80{\\x9d\\xd1h\\x93\\xfd\\x8c\x19L\x03\\xd6\\xc33\\xb19R\x7f(6vE\\xf1S!\\xb9\x11\\xe5D\\xf5DhQ\\xa7 \\x9bm\x05\x13\\xc3de\\xcey\\xaf\n\\xe8ļ\x11\\xd6\\xd8-XK<[\\xc7o\x01ŔY(\x19\x13)M\\x81Y\\xde=\\xfc\\x8e\\xb5\\xdf\\xcfz\\x84\x15\x06\\x9f\x17\\x9b\\x8e\\xcf,\\xbb=\\xa8n$&2\x05\\xfaPf\\xfe\x13\\xd6\x1c\\x86zP\\xd0\\xe9""\x11\\xfc\\x81\\xe1\x00\x05\\xb00\\x82\x05\\xac0\\x82\x04\\x94\\xa0\x03\x02\x01\x02\x02\x10\x05\x19e&D\\x9a^=\x1a8t\\x8f]\\xcf\\xeb\\xcc0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x000a1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x150\x13\x06\x03U\x04\n\x13\x0cDigiCert Inc1\x190\x17\x06\x03U\x04\x0b\x13\x10www.digicert.com1 0\x1e\x06\x03U\x04\x03\x13\x17DigiCert Global Root G20\x1e\x17\r230608000000Z\x17\r260825235959Z0]1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x1e0\x1c\x06\x03U\x04\n\x13\x15Microsoft Corporation1.0,\x06\x03U\x04\x03\x13%Microsoft Azure RSA TLS Issuing CA 030\\x82\x02""0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x01\x05\x00\x03\\x82\x02\x0f\x000\\x82\x02\n\x02\\x82\x02\x01\x00\\x94j+oz\\xf9Y\\x8a\\xbc\\x9dq8\\xcc""ݟ\\xaf\\x97\\xa2\\xec\\xbb\\xd0Ƕ\\xdd!Z\x1b\\x80FuBZ\\x9f\\xdc\x11\\xfazҝ\\x99\\x90\\xa1\\xc9\\xd9\r\\xd1u\\xc0o\\xc6,{\x0f\x1a\n,J\\xb6\\xb5^\x0c\'\\xb9\\xc5\x14B\\x9c\\xa6\\x85pK\\xea\\x83g\x12}\\xbaW\x15\\xeb\\xd7\x0e\\xf7\\xdbL\\xad\\x9ew\\xb6\x00H\\xe2\x7f\\xa6\\xfd\\xf5\\xb2ڇwٴ\\xc5fK\nk\x17g\\xcczȌ`\x10eG\\x8c\\x80\x0e\x0b$\\xc0\\x81\\xc42\\xf0\\x8bH\\x8elg\\xdd[\\xb6\x14UAzkO\\xdf\\xc3s\\xba\\xbf\\xfc\\x89\\xdf9\\xb9\\x8e\\xd0>\\xcaH\\xf0J\\xfc\\xa9PA\x04zz>\x1cS \\xac@f\\x96[^\\xd0_\\xd9\\H)\\xbb\\xd4\x18K\\xc2\\xc5`\\xab(\\xd7\\xef\\xfa=(\x12\\xa0\\xe9\\\\xea\\x86\x16\\x95A+o\x10\\xe3˿\\xd0_\\x98\x05F<\x14\\xa3\\xf8\\xad\\xf8\x05#\\x89F\\xf6i\\xf32`\\x8b\\xef\\xa9>\x1e<\\x81\\xb5Ns\\x8a@ƪ\t\\xb8\\x9aSׁ$j\x12\x1d\x02\\xbd\x04\\xbb\\xcf*\\xc1Eh\\x89\t\U000b40ee\\xdf\\xebЕ\x19\\xaeߎ/)\\xcf\\xdfI\\xe7\\xdb<m\\x85\\xbb\\x8e\x0c\\xab\\xa3'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 41188
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5b9a
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448464630
+        ack       = 3760440464
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0x4ffa
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\\xdd\\xcb\x08f\\xf87t\x1f$\\xbb\\xab\x07\\xffބ:w\\xddwH\\x86,ɶ\\x8acR\\x81T\x18\\xb9\\xe8\\x99Y\\xccE5\r\\xb4Ā˲x\\xaf\\\\xa3$2\\xee~\t\\xeb=\\x9d2\\x8d\\x8a:\\x9f#""\x16\\xcc\x02hɅ}\\xc9T*ѳͳä\\x80n\x7fHf\\xbc\\x90-м\\x96\\x95\\x85,\\xb7\\x98\x1e\\xba\\xc3\\xf1nC9\\\\xe8K\\x9f\\xbaq\\xfb\\xfc\\xbeGL\x0cO|\\xcde\\x841\\x96\\xc2\\xc3mq\\x98\\xb1\x17D\\xf6<\\""\\xdb>!\x0c\x16di\\xe6\x1e\x18B\\xd6K\\xca\x0b\\xf9\\xc0aʁe\\xcbL@\x1ej\\xfe\\xab\x0f\x1f\\xaevu\\xce\\xf7\\xcc\\xecz\x06\\x9d\\xa0M\\x9a\\xa8\\x90`\\xaf\\xe4\\xf1\\xb1\\x89w+\x8b\\x8eP\\x89X\\x82,\\xc1\r\\x81\\x81\rM6K\\x80Q\x0c\\xcd\\xe8[٨\\xb5U(\\x9c\x19\\xc5\\xf0\\x91\\xd5G\x02\x03\x01\x00\x01\\xa3\\x82\x01b0\\x82\x01^0\x12\x06\x03U\x1d\x13\x01\x01\\xff\x04\x080\x06\x01\x01\\xff\x02\x01\x000\x1d\x06\x03U\x1d\x0e\x04\x16\x04\x14\\xfe\tq@U\x05\x10Dؤ\\x81u\\xb8\\x9e\x1a\\xe9J\x06\\x88\\xc80\x1f\x06\x03U\x1d#\x04\x180\x16\\x80\x14N""T \x18\\x95\\xe6\\xe3n\\xe6\x0f\\xfa\\xfa\\xb9\x12\\xed\x06\x17\\x8f90\x0e\x06\x03U\x1d\x0f\x01\x01\\xff\x04\x04\x03\x02\x01\\x860\x1d\x06\x03U\x1d%\x04\x160\x14\x06\x08+\x06\x01\x05\x05\x07\x03\x01\x06\x08+\x06\x01\x05\x05\x07\x03\x020v\x06\x08+\x06\x01\x05\x05\x07\x01\x01\x04j0h0$\x06\x08+\x06\x01\x05\x05\x070\x01\\x86\x18http://ocsp.digicert.com0@\x06\x08+\x06\x01\x05\x05\x070\x02\\x864http://cacerts.digicert.com/DigiCertGlobalRootG2.crt0B\x06\x03U\x1d\x1f\x04;0907\\xa05\\xa03\\x861http://crl3.digicert.com/DigiCertGlobalRootG2.crl0\x1d\x06\x03U\x1d \x04\x160\x140\x08\x06\x06g\\x81\x0c\x01\x02\x010\x08\x06\x06g\\x81\x0c\x01\x02\x020\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x00\x03\\x82\x01\x01\x00\x01\t1\\xbb\\xa4Q>P\\xf7ʶ!\\xc6\x0fc""UY*0\'\x0b\\xd1\\xfe\x0fD\\x92\\xab\\x88\\xf5#\\xc7M""fxB7\\xb1LK\\xfe\\xdbn\x02J\\xfc\\xb8\\xcd\\xfa}\\x82g\\x91|/+\\x9e\\xba\\xf8\x14\\xde\x14\x16\\x9aX""\n\\x91\\xe0~\\xe3!EL\x1b\\xd1\x02Q\\xc4#\\xd8G\\xf5\\xd5\x15\\xea(\\xe89,\\xadߒ\\x81s\\xfc\\xd6\\xfd\t\\x8b\\xe0\\xe1k=\\xce\\xff1\\x98ML\\xafczX8\x0b\\xb90H\\xc2\\xe9v\\xff\\xba\x1a\\x928\\xfc0\x0eDz(Ȍx\x01\\xd7\\xfd+\\xe6c\\xe6xV\x15\\xc7\\xccB\\xb9\x7f\\xe3\\xef긴~\x0f\\x88|\\xf3\x05\\xc7\\xeaoy4\\x89\x1e\x03\\x96\x18\\x99|9\\xb2\\xe0[\\x8dYq\\x8c\\xf1\\x9a\x0c3\\x8dĝ\x13\x7f\\x99\\xea\\x80p\\xc9\x00\x05\\x98X\\xe2\n\\x9eY\\x96\u0383\x16ޯo{>q\\x8e\t\\xc2)\\x94\\xec)=\\xf2\\xee\\xd4\rJ\\xf5\\xfa\\xd5\\xc0<\\xc0\x1bOzk\\xc2\\xf4\\xf8\\x8bP\nl\\xfbN4G\\xe2\\x9bW\\xe5\\x98}\\xa7\x16\x00\x06\\xfa\x01\x00\x06\\xf60\\x82\x06\\xf2\n\x01\x00\\xa0\\x82\x06\\xeb0\\x82\x06\\xe7\x06\t+\x06\x01\x05\x05\x070\x01\x01\x04\\x82\x06\\xd80\\x82\x06\\xd40\\x81Ţ\x16\x04\x14\\xe9\\x9ePT\x05\\x80\\xc4\\xcc΅.\\xfb`\\xe2\\xbb|l\\xb7I\\xe1\x18\x0f20240814031243Z0\\x81\\x990\\x81\\x960L0\t\x06\x05+\x0e\x03\x02'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 41189
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5b99
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448465590
+        ack       = 3760440464
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0x13aa
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x1a\x05\x00\x04\x14\\xb3O\\xfc\\xea\\xc1ʍ\\xbe\x13\\xfd\\x8b\\x878\\xb0#\\xf3ؖ\\xf3\\xac\x04\x14\\xfe\tq@U\x05\x10Dؤ\\x81u\\xb8\\x9e\x1a\\xe9J\x06\\x88\\xc8\x02\x133\x00{y\\xc3\\xdbsrM|8\\xf6B\x00\x00\x00{yÀ\x00\x18\x0f20240814021212Z\\xa0\x11\x18\x0f20240822023212Z\\xa1 0\x1e0\x1c\x06\t+\x06\x01\x04\x01\\x827\x15\x04\x04\x0f\x17\r240818022212Z0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0b\x05\x00\x03\\x82\x01\x01\x00E~j\\xab\\xb0\\xfc\\xb5D\\xd8\x1b\x07\\\x03WL\\x86Z\x04\\x9c\\xae\x12막\\xa7\\xbe\\x86\\x93\\xb5H̅~zWŵ_\\xda{\\x85""0\t;sP\\x8f\x06\\\\xb9`\x19k\\xed#MU\x0f\x1b\\xd4 ш\\x94}[\\xc0""\x11Х\\xfc~\\xab\\xe9\\x80$H,\\xdfR%\x01\\xe8^\\xe7ҙ\\xf0㶢\x06˾\\xa3\\xf3\\xcaG\x08\x1d2$\\x84R\\x92\\xdb\\xf1""\\xce\x03\\xe9R\\xd1\\xf6\\xc9\\xd8\\xcc\\xdfF\\x94\\xa9\x7f\\xae\\xd9\x17G\x15V\\xa7\\x8b\x120\x06\x0c<<\\xf1\\xd2\\xe6\\xd7\\xd8d}Q\x08\x1d\tɉ/\\x89\\x93\\xa2\\xcev\\x90\x0c\\xbc\\xa3\\x9a*\\x99%\\\\xf2\\x83s\\xe8\\x91WY1\\x83\\xddg;\x0fa\\x8b\\x9e\\xdfY͠\\x9b.\x02\x07\\x8b\\x90\\xb9\x07\\xca}\x7f\\x9bd\\x86Ta\\xbc\\x99V\\xa6HNaCK\\xa3\'\\xf0\\xd4_a\\xf2.\\x9b\\x8c_\x14B\\xc2%\\7\\x9cF\\xdf\\xe6\x1ad\\xe7\\x83\\xcd\x17s\\xe0H\\xf3r\\xf8\\xf1\x0c\\xbf\\xba\x1eRh\\x85Y\\x95V\\x9a\\xa0\\x82\x04\\xf40\\x82\x04\\xf00\\x82\x04\\xec0\\x82\x02Ԡ\x03\x02\x01\x02\x02\x133\x00\\x90I\\xf4\x04zt\\x9ev\x16Zj\x00\x00\x00\\x90I\\xf40\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x000]1\x0b0\t\x06\x03U\x04\x06\x13\x02US1\x1e0\x1c\x06\x03U\x04\n\x13\x15Microsoft Corporation1.0,\x06\x03U\x04\x03\x13%Microsoft Azure RSA TLS Issuing CA 030\x1e\x17\r240813155049Z\x17\r240912155049Z0\x1f1\x1d0\x1b\x06\x03U\x04\x03\x13\x14AzureRSA03 OCSP Cert0\\x82\x01""0\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x01\x05\x00\x03\\x82\x01\x0f\x000\\x82\x01\n\x02\\x82\x01\x01\x00\\xe1\\xa9ڋ!\\xf2\x01\\x80j\\x86\\xaaN1\\xd0+\x1f\\x92\\xe1\\xa7k\\xec\\xfb\x11`1\\xff\x1d\\xa6J\\x94\\xfc\\xf9\\xe21\x00\\xaf^\\xe7h\\x8c\\xd9ℬ\\xe4\\xf1\\xe2\\xfa\\xdfi\\x9e\\xe0C\\xfe\\xfb\\xf7q\\xd9\x00\\xfe\\xc4\\xe3\\x9a._ģ|U\\x85y\\xb58\\x99E\\xa1\x11+Y\\xd0\\xf4G\x07\\x98]07/\'\x10\\xc3""\\xceR\\xfa?7-\\xed\\xba\x00\x11Cځ\\xac/\\xc1\\xbc\\xdc\\xf3=\x02F\\x8c&\\xb8bLa|\\xdfY\\xc7\x0e4\\xa5\\x89\\x826x\x1dJr\\xb9 \\xb45\\xa2@\x1e\\x9f\\xe4\\xda\\xe1\\xfa\\xbd\\xe7K\\xc7""\x17\\x99 :\\xba@r\\xbe\\xa0q\\xbe\\xbcӖ""\x08\\x9bd\\xd3\\xd98\x04mJ\\xb7 \\x85\'8\\xbc.\x1b\r0;\x02eh\\x8c\x0b\\xf8}\\xdaD7\x12\\x8eXN\\xae\\xa2\\xf3L\x01\x06\\xb3Π7\x17\\xe8\\xe3\\xbf\x18\\x89:\\x9d\x7f\\xb66\\x80@p\x0b\\xe9,\\xb4\\xa9PI\\x80K\\xf4\\xf7L\\xf2\\xfd\x1f\\xe1\\xfb\\xc0F\\xa9{\\x83\\xc3\x7f_\\xb8D\\xa9\\xee-\x12\\xad\x02\x03\x01\x00\x01\\xa3\\x81\\xe20\\x81\\xdf0\x0c\x06\x03U\x1d\x13\x01\x01\\xff\x04\x020\x000\x13\x06\x03U\x1d%\x04\x0c0\n\x06\x08'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 A / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 41190
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5b98
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448466550
+        ack       = 3760440464
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0xcc9
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '+\x06\x01\x05\x05\x07\x03\t0\x1d\x06\x03U\x1d\x0e\x04\x16\x04\x14\\xe9\\x9ePT\x05\\x80\\xc4\\xcc΅.\\xfb`\\xe2\\xbb|l\\xb7I\\xe10\x1f\x06\x03U\x1d#\x04\x180\x16\\x80\x14\\xfe\tq@U\x05\x10Dؤ\\x81u\\xb8\\x9e\x1a\\xe9J\x06\\x88\\xc80\x0e\x06\x03U\x1d\x0f\x01\x01\\xff\x04\x04\x03\x02\x07\\x800<\x06\t+\x06\x01\x04\x01\\x827\x15\x07\x04/0-\x06%+\x06\x01\x04\x01\\x827\x15\x08\\x87\\xbd\\xd7\x1b\\x81\\xe7\\xebF\\x82\\x81\\x9d.\\x8e\\xd0\x0c\\x87\\xf0\\xda\x1d]\\x83\\xd9\\xd7""\\x81\\xf4\\xde\x1f\x02\x01d\x02\x01\x170\x1b\x06\t+\x06\x01\x04\x01\\x827\x15\n\x04\x0e0\x0c0\n\x06\x08+\x06\x01\x05\x05\x07\x03\t0\x0f\x06\t+\x06\x01\x05\x05\x070\x01\x05\x04\x02\x05\x000\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x00\x03\\x82\x02\x01\x00~ŭ\'\\xea""\x06\\x8aX\x19\\x90ilR\x01\\xfc\\x9b+.t/i\\xf5\\xac@\\xbb\x10\\xdd.\\xed\\xaa3V\\x8a\\x90\\xb5\\xcb\x10\\x9b\x0f\\xb2\\xc7u\\xe5\\xac\\xe2\x08\\xa4\\x98\\xae\\xb5""\\x80[\\xb1kS\\xec\\xaa\\xf4\\xae\\xee\\xea(\\xc2\x1e^\\xa4\\x85\x07;\x08b\\xf4\\xbb\\xd9\x0c\\xb9\\xca>\\xaf\\x9e\\xd0\\xefp\x01\\xd4\\xd6,K\\x9b\\xb0\\xf9\\xf8\\x95F٫L\\x90\\xb3\\xb8\\xf1\\x9d_\x0f\x18\\xe4\x14rc;-z\x1c\x05\x17\\x91:\x03 \\xe7\\x87\t\x0e\\xc8\x15\\xcf\x07\\xba\\x93Q<\\x8b\x00\\xae\\x82\\x9az\\x94b9\x1d\\x88DX\uf5ac\\xf6\x17]\\x82\x19[5[ݥ\\xd3\x11֊F\t\\xf8B,\\xcde=\\xbcz\t\\xc0|\x10\x1a(\\xcd\x18)\\xc5c\\xccq\x03mٖ\\xba\\xac$\\xe9\\xc2E\\xf1\\xf3瀛27P\\xcdC/ 4K\\xdc\r~ځ\\x8b\\x8e\\xad\\xef\x0f\\xe6\\x91\\xc77\\xe2;ۑ\\xd6\\xc0Y\\xdd\t\\j\\xc6\\xf2Lr\\xcfOK\\x8b\\xed\\xda9ȭ\x03J;i\\xc1\\xdex^\x03I\x02d\\xc0E28\\xe3\\x8f5U\\xd3o8\x1fu<\x1d\\x86\\x9a\\xc2&4\\xdc\\xf3_o\x07\x7f\\x8f\\xfa\\xa4\\xda\\xdb\x1e\\xfe\\x95\\x8d\\x8e{X\\6\x05F\\xacX\\xd9\x0e\\x9a,ک\\xbf%\\x9c .\\xcb!\\x82\\xc7v\\xb2\\xcb\x13/\rvÞ\\xba\\xb2\\xd6\\xed\\xe1\\xb88OE\\xb3\\x9d\\xcfEc\x0e\\xf6\\x9f:\x1c\\xd2\x0cJd6E>E\\xa5+\\xf7$\\x8b9\\x84(=\\xf3\\x81\x0cA\x1e<\\xf9\\x91Դ\\x99\\xa7\\xbe\\xa1 \\x83\\xf4ӊ;x\\xd8Q|\\xe0X\\xe5\x0f<\\x9b\x17܋\\xbfb\\xa0\\xf5\x057\\xea/\\xd9\\xd3\x15\\x92&6i\\xf4\\xfbz\x14\\xc1yy\n5\\x9f\\xf3{\\xf0\\xee\\x86\x0b@vy\x0cɲ\\xbe\\x9bF\\xdaJ\\xa4\\xe2\\xf9\\x9c\x1eܼkE-\\xf2\\xf8\\xf5\\xeb2\\x91G\\x9d""\\xb4\\xe1Ͼ\x07^\\xb7U\\xbf\\xd9VsH{\x1f\x1cǦ\\xf6c\x08\\xfeݲ4\\xf3\\xab\\xc7O$c\\x93n\\xb8k\t\\xd3\x04\\x82ݕ;S\\x8e!\\xb4II\\x94at\\xf7\\xfc\x0c\x00\x01i\x03\x00\x18a\x04\\xf5""0\\xa7z\\xb1\\xe4F\\xb7\x01\\xceTm\x0b\\xf9I\\xb6U\\xb2\\x9d\\x928\x1b\\xe2\\xdf-\\xb0\\xc0\\xc9<\\xed\x0f\x13\x0b3\x04\\xa8\\x91\\xca`\\xb8\\xcd\\xf4\x02\\xf1\\xb5H\\xee~8M;\\xb0x\\x94\\xc1g\\xb0\\xbe\\x8d3\\xfe\\xa5N\x15\\xd2\\xeb}\\xd3\x13\\xa1\\xfb\\xafF\\x92\\xf96wm\\x87\\xd0\x00\\x9d\\xb0\\x94\\xa4\\xbd\x1aj\\xdb\\xde\\xdfTp\\x80o\x08\x04\x01\x00\x02\\xe9/\\xe5\\xe6\\xf4,\x14\\xeb\\xd7\x19@\\xa6\\xde~\\xb67\\x8f\\xff9\\\\xc6\\xe83\x1fR\x17\\xd5|\\xa6WFâ\\xcb\x10A\\xa9\\xff\\xd6Kϥ\x11A\x15\\xaa\\xbc\\xca\\xce\r(~\'\\xebn\\xdb\\xc5h\ne\\xec;R\\xa7\x16M1\x0fB\\xf7\\xf5\\xe4\\xf1x8ғ\\xec\\xd8\\xf6Đ\\xc2W\\xa6\\xf5c\\xff\x18~Q\\xff\\xf5ډ>I\\xcd\\z8R\\xda\x1fZ\\xe3N\\xe09\\xe6\x04\\xcf3\x02Xj/V\\x96$L\x07'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 1000
+     id        = 41192
+     flags     = DF
+     frag      = 0
+     ttl       = 106
+     proto     = tcp
+     chksum    = 0x5c96
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448466687
+        ack       = 3760440464
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16384
+        chksum    = 0xbbd
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\\xd9\\xd7""\\x81\\xf4\\xde\x1f\x02\x01d\x02\x01\x170\x1b\x06\t+\x06\x01\x04\x01\\x827\x15\n\x04\x0e0\x0c0\n\x06\x08+\x06\x01\x05\x05\x07\x03\t0\x0f\x06\t+\x06\x01\x05\x05\x070\x01\x05\x04\x02\x05\x000\r\x06\t*\\x86H\\x86\\xf7\r\x01\x01\x0c\x05\x00\x03\\x82\x02\x01\x00~ŭ\'\\xea""\x06\\x8aX\x19\\x90ilR\x01\\xfc\\x9b+.t/i\\xf5\\xac@\\xbb\x10\\xdd.\\xed\\xaa3V\\x8a\\x90\\xb5\\xcb\x10\\x9b\x0f\\xb2\\xc7u\\xe5\\xac\\xe2\x08\\xa4\\x98\\xae\\xb5""\\x80[\\xb1kS\\xec\\xaa\\xf4\\xae\\xee\\xea(\\xc2\x1e^\\xa4\\x85\x07;\x08b\\xf4\\xbb\\xd9\x0c\\xb9\\xca>\\xaf\\x9e\\xd0\\xefp\x01\\xd4\\xd6,K\\x9b\\xb0\\xf9\\xf8\\x95F٫L\\x90\\xb3\\xb8\\xf1\\x9d_\x0f\x18\\xe4\x14rc;-z\x1c\x05\x17\\x91:\x03 \\xe7\\x87\t\x0e\\xc8\x15\\xcf\x07\\xba\\x93Q<\\x8b\x00\\xae\\x82\\x9az\\x94b9\x1d\\x88DX\uf5ac\\xf6\x17]\\x82\x19[5[ݥ\\xd3\x11֊F\t\\xf8B,\\xcde=\\xbcz\t\\xc0|\x10\x1a(\\xcd\x18)\\xc5c\\xccq\x03mٖ\\xba\\xac$\\xe9\\xc2E\\xf1\\xf3瀛27P\\xcdC/ 4K\\xdc\r~ځ\\x8b\\x8e\\xad\\xef\x0f\\xe6\\x91\\xc77\\xe2;ۑ\\xd6\\xc0Y\\xdd\t\\j\\xc6\\xf2Lr\\xcfOK\\x8b\\xed\\xda9ȭ\x03J;i\\xc1\\xdex^\x03I\x02d\\xc0E28\\xe3\\x8f5U\\xd3o8\x1fu<\x1d\\x86\\x9a\\xc2&4\\xdc\\xf3_o\x07\x7f\\x8f\\xfa\\xa4\\xda\\xdb\x1e\\xfe\\x95\\x8d\\x8e{X\\6\x05F\\xacX\\xd9\x0e\\x9a,ک\\xbf%\\x9c .\\xcb!\\x82\\xc7v\\xb2\\xcb\x13/\rvÞ\\xba\\xb2\\xd6\\xed\\xe1\\xb88OE\\xb3\\x9d\\xcfEc\x0e\\xf6\\x9f:\x1c\\xd2\x0cJd6E>E\\xa5+\\xf7$\\x8b9\\x84(=\\xf3\\x81\x0cA\x1e<\\xf9\\x91Դ\\x99\\xa7\\xbe\\xa1 \\x83\\xf4ӊ;x\\xd8Q|\\xe0X\\xe5\x0f<\\x9b\x17܋\\xbfb\\xa0\\xf5\x057\\xea/\\xd9\\xd3\x15\\x92&6i\\xf4\\xfbz\x14\\xc1yy\n5\\x9f\\xf3{\\xf0\\xee\\x86\x0b@vy\x0cɲ\\xbe\\x9bF\\xdaJ\\xa4\\xe2\\xf9\\x9c\x1eܼkE-\\xf2\\xf8\\xf5\\xeb2\\x91G\\x9d""\\xb4\\xe1Ͼ\x07^\\xb7U\\xbf\\xd9VsH{\x1f\x1cǦ\\xf6c\x08\\xfeݲ4\\xf3\\xab\\xc7O$c\\x93n\\xb8k\t\\xd3\x04\\x82ݕ;S\\x8e!\\xb4II\\x94at\\xf7\\xfc\x0c\x00\x01i\x03\x00\x18a\x04\\xf5""0\\xa7z\\xb1\\xe4F\\xb7\x01\\xceTm\x0b\\xf9I\\xb6U\\xb2\\x9d\\x928\x1b\\xe2\\xdf-\\xb0\\xc0\\xc9<\\xed\x0f\x13\x0b3\x04\\xa8\\x91\\xca`\\xb8\\xcd\\xf4\x02\\xf1\\xb5H\\xee~8M;\\xb0x\\x94\\xc1g\\xb0\\xbe\\x8d3\\xfe\\xa5N\x15\\xd2\\xeb}\\xd3\x13\\xa1\\xfb\\xafF\\x92\\xf96wm\\x87\\xd0\x00\\x9d\\xb0\\x94\\xa4\\xbd\x1aj\\xdb\\xde\\xdfTp\\x80o\x08\x04\x01\x00\x02\\xe9/\\xe5\\xe6\\xf4,\x14\\xeb\\xd7\x19@\\xa6\\xde~\\xb67\\x8f\\xff9\\\\xc6\\xe83\x1fR\x17\\xd5|\\xa6WFâ\\xcb\x10A\\xa9\\xff\\xd6Kϥ\x11A\x15\\xaa\\xbc\\xca\\xce\r(~\'\\xebn\\xdb\\xc5h\ne\\xec;R\\xa7\x16M1\x0fB\\xf7\\xf5\\xe4\\xf1x8ғ\\xec\\xd8\\xf6Đ\\xc2W\\xa6\\xf5c\\xff\x18~Q\\xff\\xf5ډ>I\\xcd\\z8R\\xda\x1fZ\\xe3N\\xe09\\xe6\x04\\xcf3\x02Xj/V\\x96$L\x07\\xeacj\\xd7h\\xac\x02>\x05I\\x98\\xa0X\\xf2J\\xa8\\x96qD{`\\xedUZU\n/y\\xfa%2|\\xf7\x07\\xafs\\x88\\xb5\\x93\\xf7\\xb2W\\xcd)bC\\xe0\\xe3\\x8a\\xf0"".}\\xf5\\xfcV\\x85\\xba\x03\\xe0\\x89έt\\xbc\\xd42\\xbd)*\x0b\\x9b\\x8bԖݱ\\x93зf,\\xd5Y:\\xb5\n\\xde\\xf6\\x86gy\n\x19\\x89MV\\xa5\\xa2\\xca\\xd9$\\x90lc\\\\x8c/\\xc8E@\\xe4oH\x1f\\xa8\\xf3\\x8e;B\x01\\x90\\xae\\xf1\\xba:P\\xd4m\\x94b\\xaeP\x0e\x00\x00\x00'
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 60792
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdb9
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760440464
+        ack       = 2448467647
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0x4514
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('SAck', (2448466687, 2448467510))]
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https PA / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 198
+     id        = 60793
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfd26
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760440464
+        ack       = 2448467647
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 258
+        chksum    = 0x5a2c
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x16\x03\x03\x00f\x10\x00\x00ba\x04Þ\x14\x170\\xbb\\xb2V\\xa7\x1c\\x8a\\xed\\xf3,\x12\\xd2\\xf1E\\xc4\x7f\\xc4\x0e˥«.,b\\x8a\\xd71&\x1a\\x82\x11\\xbda\\xf2\x10\\xab\\xb0א\\xd7\\xe1\\xb5J&\\x9a`\\xa5\\xbd\\xf23\\xefsu>\x18\x0fB\\xdb\\xfe8\\xdec\\x98\\xa5\\xcax\x05\\xa0\\xd6\n\\xd9\\xfdΈ\\x96\x0b\\xc4\\xdcp\\xb5\n\\xe3\\x9a\\xef\\xf6\\xe2\\xc2\\xe8d""\\xf6\x14\x03\x03\x00\x01\x01\x16\x03\x03\x00(\x00\x00\x00\x00\x00\x00\x00\x00\x1fY\\xd6\\xccՖ\\xf1\\x84\x1c\r#\x07\\xd2\\xdc\\xf8\x07\x085\\xd6\x1a\\xc5\\xc1p\\x96[@V8\n\\xb3\\xe1g'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 62915
+     flags     = DF
+     frag      = 0
+     ttl       = 106
+     proto     = tcp
+     chksum    = 0xb6f
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700527766
+        ack       = 2768767495
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0xdf95
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('SAck', (2768767457, 2768767495))]
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 41194
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5f54
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448467647
+        ack       = 3760440622
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 16383
+        chksum    = 0xa8a7
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 382
+     id        = 41195
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5dfd
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448467647
+        ack       = 3760440622
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16383
+        chksum    = 0x923e
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x16\x03\x03\x01\x1e\x04\x00\x01\x1a\x00\x00\\x8c\\xa0\x01\x14\x00\x00\x00\x00\\x93>U\\xbbpcbH\\x81\\xaa\\xa1\\xb2\\xc3\\xees\\xf6h\\xb3\\x90j?͏\\xf5\\xb8Ԡ\\x81~\x161\x05\x12\\xfb\\xe6\\xff\x02O\x05\\xf8g\'T\\x86\\xcdc\x18c\\x99\x04\\x82\x19)\\xb4\\x98)\\xeb6\\xf1\\xa8\\x94\\xeag\\x86\x08YX\\xd49\\x98\\x82\r\\xb4\x06\\x8e](Z\x1c\\xc4X\\xec_j\\xf5\\xfb꽯27vӼ\\xf142\\xcejj=\\x81\\xe1\\xe6\x06~+\\xb3n\\xd0\x1f\\xe32ΰ\\x97\\x94\\xa9j\\xcd5\\xaf\\xffr?_\\xafzҚ\\xfb\\x8fwN8`\x05-}\\xc3\\xf8f}-\\xc7{9~fw\\xed\\xd0l\\xc7r\\xfd\\xa4\x17k\\xa2\\x87\\xbf\\xc5ݙ\\xd7\x1a\x01\\xd9k\x1d\x15\\x83bm\\xbdbr\\x90S^V9\\xbd+\\xe4\\xd0\\xf9\\xf6GZ\x04\\x86\\xf0\\xa7~n@""\\x8e\\xbfj2 u\\xa5\\xd6&\\xf7\\xfe\\xf3ì\\xa7\\xe7kz\x1c\\xe0\\x84\x14\\xe5c\\xc4\\xe7)\x1fq\\xeea\\xd4x\\x8d\\xf9ZjҎ\x15\\xb3YS2,\\xb04\\xf8x\\x98\x08u\x12\\x94\\xeb6\\xd6\x1f\\xef\\xebޛ\\xb0\\xd0*\x0e;\\x9e\\xe8K\\xc4\\xf4\\xb3\x14\x03\x03\x00\x01\x01\x16\x03\x03\x00(\x00\x00\x00\x00\x00\x00\x00\x00\\xa8\\xa9\x1a\\xf3}\\xa2$\'b\\xf3U\\x87\x07:\\x9cV\\x9ah!\\x902\\xfe\\xf8\\x97\x11\\xb6$\\x9e\\xb9\\xd6ug'
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60794
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdc3
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760440622
+        ack       = 2448467989
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 257
+        chksum    = 0xe64f
+        urgptr    = 0
+        options   = ''
+"
+Ether / ARP who has 192.168.43.143 says 192.168.43.110,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = ARP
+###[ ARP ]### 
+     hwtype    = Ethernet (10Mb)
+     ptype     = IPv4
+     hwlen     = 6
+     plen      = 4
+     op        = who-has
+     hwsrc     = 92:56:fc:a6:05:7d
+     psrc      = 192.168.43.110
+     hwdst     = 00:00:00:00:00:00
+     pdst      = 192.168.43.143
+"
+Ether / ARP is at 5c:51:4f:9c:d9:43 says 192.168.43.143,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = ARP
+###[ ARP ]### 
+     hwtype    = Ethernet (10Mb)
+     ptype     = IPv4
+     hwlen     = 6
+     plen      = 4
+     op        = is-at
+     hwsrc     = 5c:51:4f:9c:d9:43
+     psrc      = 192.168.43.143
+     hwdst     = 92:56:fc:a6:05:7d
+     pdst      = 192.168.43.110
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 109
+     id        = 41197
+     flags     = DF
+     frag      = 0
+     ttl       = 106
+     proto     = tcp
+     chksum    = 0x600c
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448467989
+        ack       = 3760440622
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16383
+        chksum    = 0xd25b
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x00@\x00\x00\x00\x00\x00\x00\x00\x01\\xec\\xb5X\\x93\\xc1\\xf9\\x95\t]6x\\x9cd~@\\x83emBMA\\x8ce\x13\\xef\\xe0\\xd4\\xcd\x15\n\\xe9=3\\xb5\\xdd\u0379W\\xf3\\xfdfQw`Wj\\xe9{tf#\\xed\\xa3\\xd6cl'
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 60795
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdc2
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760440622
+        ack       = 2448468058
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 257
+        chksum    = 0xe60a
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55262 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 109
+     id        = 41198
+     flags     = DF
+     frag      = 0
+     ttl       = 107
+     proto     = tcp
+     chksum    = 0x5f0b
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55262
+        seq       = 2448467989
+        ack       = 3760440622
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 16383
+        chksum    = 0xd25b
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x17\x03\x03\x00@\x00\x00\x00\x00\x00\x00\x00\x01\\xec\\xb5X\\x93\\xc1\\xf9\\x95\t]6x\\x9cd~@\\x83emBMA\\x8ce\x13\\xef\\xe0\\xd4\\xcd\x15\n\\xe9=3\\xb5\\xdd\u0379W\\xf3\\xfdfQw`Wj\\xe9{tf#\\xed\\xa3\\xd6cl'
+"
+Ether / IP / TCP 192.168.43.143:55262 > 13.107.21.239:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 60796
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdb5
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55262
+        dport     = https
+        seq       = 3760440622
+        ack       = 2448468058
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 257
+        chksum    = 0x3ba2
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('SAck', (2448467989, 2448468058))]
+"
+"Ether / IP / UDP / DNS Qry ""b'e61jgu3yesbk.cloud.wazuh.com.'"" ","###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 74
+     id        = 16986
+     flags     = 
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x1ffb
+     src       = 192.168.43.143
+     dst       = 192.168.43.110
+     \options   \
+###[ UDP ]### 
+        sport     = 59142
+        dport     = domain
+        len       = 54
+        chksum    = 0x5c62
+###[ DNS ]### 
+           id        = 1891
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'e61jgu3yesbk.cloud.wazuh.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+Ether / IP / UDP / DNS Ans ,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 74
+     id        = 23976
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0x4ad
+     src       = 192.168.43.110
+     dst       = 192.168.43.143
+     \options   \
+###[ UDP ]### 
+        sport     = domain
+        dport     = 59142
+        len       = 54
+        chksum    = 0xdbe1
+###[ DNS ]### 
+           id        = 1891
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'e61jgu3yesbk.cloud.wazuh.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+"Ether / IP / UDP / DNS Qry ""b'e61jgu3yesbk.cloud.wazuh.com.'"" ","###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 74
+     id        = 16987
+     flags     = 
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x1ffa
+     src       = 192.168.43.143
+     dst       = 192.168.43.110
+     \options   \
+###[ UDP ]### 
+        sport     = 55970
+        dport     = domain
+        len       = 54
+        chksum    = 0xddfd
+###[ DNS ]### 
+           id        = 37419
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'e61jgu3yesbk.cloud.wazuh.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+Ether / IP / UDP / DNS Ans ,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 74
+     id        = 23999
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0x496
+     src       = 192.168.43.110
+     dst       = 192.168.43.143
+     \options   \
+###[ UDP ]### 
+        sport     = domain
+        dport     = 55970
+        len       = 54
+        chksum    = 0x5d7d
+###[ DNS ]### 
+           id        = 37419
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'e61jgu3yesbk.cloud.wazuh.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+"Ether / IP / UDP / DNS Qry ""b'e61jgu3yesbk.cloud.wazuh.com.'"" ","###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 74
+     id        = 16988
+     flags     = 
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x1ff9
+     src       = 192.168.43.143
+     dst       = 192.168.43.110
+     \options   \
+###[ UDP ]### 
+        sport     = 59733
+        dport     = domain
+        len       = 54
+        chksum    = 0xa2b5
+###[ DNS ]### 
+           id        = 48832
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'e61jgu3yesbk.cloud.wazuh.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+Ether / IP / UDP / DNS Ans ,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 74
+     id        = 24090
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0x43b
+     src       = 192.168.43.110
+     dst       = 192.168.43.143
+     \options   \
+###[ UDP ]### 
+        sport     = domain
+        dport     = 59733
+        len       = 54
+        chksum    = 0x2235
+###[ DNS ]### 
+           id        = 48832
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'e61jgu3yesbk.cloud.wazuh.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+Ether / IP / TCP 192.168.43.143:55237 > 142.250.181.174:https FA,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 1192
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xc547
+     src       = 192.168.43.143
+     dst       = 142.250.181.174
+     \options   \
+###[ TCP ]### 
+        sport     = 55237
+        dport     = https
+        seq       = 1518170610
+        ack       = 1493339780
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 1021
+        chksum    = 0xed7e
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55233 > 142.250.201.136:https FA,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 29048
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x449d
+     src       = 192.168.43.143
+     dst       = 142.250.201.136
+     \options   \
+###[ TCP ]### 
+        sport     = 55233
+        dport     = https
+        seq       = 2344060444
+        ack       = 1442625211
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 1024
+        chksum    = 0x6f10
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55232 > 199.232.46.132:https FA,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 51806
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4dcd
+     src       = 192.168.43.143
+     dst       = 199.232.46.132
+     \options   \
+###[ TCP ]### 
+        sport     = 55232
+        dport     = https
+        seq       = 1884850255
+        ack       = 3167112226
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 1024
+        chksum    = 0xee22
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55231 > 199.232.46.132:https FA,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 51807
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4dcc
+     src       = 192.168.43.143
+     dst       = 199.232.46.132
+     \options   \
+###[ TCP ]### 
+        sport     = 55231
+        dport     = https
+        seq       = 3292498903
+        ack       = 4076308473
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 1022
+        chksum    = 0x24ae
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 142.250.181.174:https > 192.168.43.143:55237 FA,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 20318
+     flags     = 
+     frag      = 0
+     ttl       = 118
+     proto     = tcp
+     chksum    = 0xc491
+     src       = 142.250.181.174
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55237
+        seq       = 1493339780
+        ack       = 1518170611
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 272
+        chksum    = 0xf06a
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55237 > 142.250.181.174:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 1193
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xc546
+     src       = 192.168.43.143
+     dst       = 142.250.181.174
+     \options   \
+###[ TCP ]### 
+        sport     = 55237
+        dport     = https
+        seq       = 1518170611
+        ack       = 1493339781
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 1021
+        chksum    = 0xed7d
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 142.250.201.136:https > 192.168.43.143:55233 FA,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x80
+     len       = 40
+     id        = 40699
+     flags     = 
+     frag      = 0
+     ttl       = 119
+     proto     = tcp
+     chksum    = 0x5f9a
+     src       = 142.250.201.136
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55233
+        seq       = 1442625211
+        ack       = 2344060445
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 272
+        chksum    = 0x71ff
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55233 > 142.250.201.136:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 29049
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x449c
+     src       = 192.168.43.143
+     dst       = 142.250.201.136
+     \options   \
+###[ TCP ]### 
+        sport     = 55233
+        dport     = https
+        seq       = 2344060445
+        ack       = 1442625212
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 1024
+        chksum    = 0x6f0f
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 199.232.46.132:https > 192.168.43.143:55232 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 13617
+     flags     = DF
+     frag      = 0
+     ttl       = 55
+     proto     = tcp
+     chksum    = 0x2bfb
+     src       = 199.232.46.132
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55232
+        seq       = 3167112226
+        ack       = 1884850256
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 290
+        chksum    = 0xf100
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 199.232.46.132:https > 192.168.43.143:55232 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 71
+     id        = 13618
+     flags     = DF
+     frag      = 0
+     ttl       = 55
+     proto     = tcp
+     chksum    = 0x2bdb
+     src       = 199.232.46.132
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55232
+        seq       = 3167112226
+        ack       = 1884850256
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 290
+        chksum    = 0xa1fa
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x15\x03\x03\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x03\\xeaTTJY\\xb4\x11\\xbb?\\x80(\\xceJ\x18\\x98\\xf6\\xe6\\xad'
+"
+Ether / IP / TCP 192.168.43.143:55232 > 199.232.46.132:https RA,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 51808
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4dcb
+     src       = 192.168.43.143
+     dst       = 199.232.46.132
+     \options   \
+###[ TCP ]### 
+        sport     = 55232
+        dport     = https
+        seq       = 1884850256
+        ack       = 3167112257
+        dataofs   = 5
+        reserved  = 0
+        flags     = RA
+        window    = 0
+        chksum    = 0xf1ff
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 199.232.46.132:https > 192.168.43.143:55232 FA,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 13619
+     flags     = DF
+     frag      = 0
+     ttl       = 55
+     proto     = tcp
+     chksum    = 0x2bf9
+     src       = 199.232.46.132
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55232
+        seq       = 3167112257
+        ack       = 1884850256
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 290
+        chksum    = 0xf0e0
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 199.232.46.132:https > 192.168.43.143:55231 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 22129
+     flags     = DF
+     frag      = 0
+     ttl       = 55
+     proto     = tcp
+     chksum    = 0xabb
+     src       = 199.232.46.132
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55231
+        seq       = 4076308473
+        ack       = 3292498904
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 288
+        chksum    = 0x278c
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 199.232.46.132:https > 192.168.43.143:55231 FA,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 22131
+     flags     = DF
+     frag      = 0
+     ttl       = 55
+     proto     = tcp
+     chksum    = 0xab9
+     src       = 199.232.46.132
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55231
+        seq       = 4076308504
+        ack       = 3292498904
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 288
+        chksum    = 0x276c
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 199.232.46.132:https > 192.168.43.143:55231 PA / Raw,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 71
+     id        = 22130
+     flags     = DF
+     frag      = 0
+     ttl       = 55
+     proto     = tcp
+     chksum    = 0xa9b
+     src       = 199.232.46.132
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55231
+        seq       = 4076308473
+        ack       = 3292498904
+        dataofs   = 5
+        reserved  = 0
+        flags     = PA
+        window    = 288
+        chksum    = 0x9da9
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x15\x03\x03\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x01\x1a\\xce\\xf7\\xf0:GX\\xbd&\\x8d\\xd8^\\xd4\x04\\xac\\\\x93E'
+"
+Ether / IP / TCP 192.168.43.143:55231 > 199.232.46.132:https A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 51809
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4dca
+     src       = 192.168.43.143
+     dst       = 199.232.46.132
+     \options   \
+###[ TCP ]### 
+        sport     = 55231
+        dport     = https
+        seq       = 3292498904
+        ack       = 4076308473
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 1022
+        chksum    = 0x24ae
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55231 > 199.232.46.132:https RA,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 51810
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x4dc9
+     src       = 192.168.43.143
+     dst       = 199.232.46.132
+     \options   \
+###[ TCP ]### 
+        sport     = 55231
+        dport     = https
+        seq       = 3292498904
+        ack       = 4076308504
+        dataofs   = 5
+        reserved  = 0
+        flags     = RA
+        window    = 0
+        chksum    = 0x2889
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55234 > 172.217.18.131:http FA,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 36373
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xc126
+     src       = 192.168.43.143
+     dst       = 172.217.18.131
+     \options   \
+###[ TCP ]### 
+        sport     = 55234
+        dport     = http
+        seq       = 1694432954
+        ack       = 3099342580
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 258
+        chksum    = 0xd7c0
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55235 > 192.178.24.131:http FA,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 11388
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x8e7
+     src       = 192.168.43.143
+     dst       = 192.178.24.131
+     \options   \
+###[ TCP ]### 
+        sport     = 55235
+        dport     = http
+        seq       = 913987195
+        ack       = 4123529686
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 258
+        chksum    = 0x7cbc
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55236 > 192.178.24.227:http FA,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 34334
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xaee4
+     src       = 192.168.43.143
+     dst       = 192.178.24.227
+     \options   \
+###[ TCP ]### 
+        sport     = 55236
+        dport     = http
+        seq       = 3354477737
+        ack       = 1923662805
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 255
+        chksum    = 0xcdd9
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 172.217.18.131:http > 192.168.43.143:55234 FA,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 3418
+     flags     = 
+     frag      = 0
+     ttl       = 118
+     proto     = tcp
+     chksum    = 0x8be2
+     src       = 172.217.18.131
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 55234
+        seq       = 3099342580
+        ack       = 1694432955
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 261
+        chksum    = 0xd7bc
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55234 > 172.217.18.131:http A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 36374
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xc125
+     src       = 192.168.43.143
+     dst       = 172.217.18.131
+     \options   \
+###[ TCP ]### 
+        sport     = 55234
+        dport     = http
+        seq       = 1694432955
+        ack       = 3099342581
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0xd7bf
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.178.24.131:http > 192.168.43.143:55235 FA,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x80
+     len       = 40
+     id        = 3622
+     flags     = 
+     frag      = 0
+     ttl       = 119
+     proto     = tcp
+     chksum    = 0x6fbd
+     src       = 192.178.24.131
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 55235
+        seq       = 4123529686
+        ack       = 913987196
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 256
+        chksum    = 0x7cbd
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55235 > 192.178.24.131:http A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 11389
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0x8e6
+     src       = 192.168.43.143
+     dst       = 192.178.24.131
+     \options   \
+###[ TCP ]### 
+        sport     = 55235
+        dport     = http
+        seq       = 913987196
+        ack       = 4123529687
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0x7cbb
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.178.24.227:http > 192.168.43.143:55236 FA,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 63935
+     flags     = 
+     frag      = 0
+     ttl       = 55
+     proto     = tcp
+     chksum    = 0xc443
+     src       = 192.178.24.227
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = http
+        dport     = 55236
+        seq       = 1923662805
+        ack       = 3354477738
+        dataofs   = 5
+        reserved  = 0
+        flags     = FA
+        window    = 261
+        chksum    = 0xcdd2
+        urgptr    = 0
+        options   = ''
+"
+Ether / IP / TCP 192.168.43.143:55236 > 192.178.24.227:http A,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 40
+     id        = 34335
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xaee3
+     src       = 192.168.43.143
+     dst       = 192.178.24.227
+     \options   \
+###[ TCP ]### 
+        sport     = 55236
+        dport     = http
+        seq       = 3354477738
+        ack       = 1923662806
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 255
+        chksum    = 0xcdd8
+        urgptr    = 0
+        options   = ''
+"
+Ether / ARP who has 192.168.43.143 says 192.168.43.110,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = ARP
+###[ ARP ]### 
+     hwtype    = Ethernet (10Mb)
+     ptype     = IPv4
+     hwlen     = 6
+     plen      = 4
+     op        = who-has
+     hwsrc     = 92:56:fc:a6:05:7d
+     psrc      = 192.168.43.110
+     hwdst     = 00:00:00:00:00:00
+     pdst      = 192.168.43.143
+"
+Ether / ARP is at 5c:51:4f:9c:d9:43 says 192.168.43.143,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = ARP
+###[ ARP ]### 
+     hwtype    = Ethernet (10Mb)
+     ptype     = IPv4
+     hwlen     = 6
+     plen      = 4
+     op        = is-at
+     hwsrc     = 5c:51:4f:9c:d9:43
+     psrc      = 192.168.43.143
+     hwdst     = 92:56:fc:a6:05:7d
+     pdst      = 192.168.43.110
+"
+"Ether / IP / UDP / DNS Qry ""b'e61jgu3yesbk.cloud.wazuh.com.'"" ","###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 74
+     id        = 16989
+     flags     = 
+     frag      = 0
+     ttl       = 128
+     proto     = udp
+     chksum    = 0x1ff8
+     src       = 192.168.43.143
+     dst       = 192.168.43.110
+     \options   \
+###[ UDP ]### 
+        sport     = 55559
+        dport     = domain
+        len       = 54
+        chksum    = 0x4925
+###[ DNS ]### 
+           id        = 10399
+           qr        = 0
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 0
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'e61jgu3yesbk.cloud.wazuh.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+Ether / IP / UDP / DNS Ans ,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 74
+     id        = 25339
+     flags     = DF
+     frag      = 0
+     ttl       = 64
+     proto     = udp
+     chksum    = 0xff59
+     src       = 192.168.43.110
+     dst       = 192.168.43.143
+     \options   \
+###[ UDP ]### 
+        sport     = domain
+        dport     = 55559
+        len       = 54
+        chksum    = 0xc8a4
+###[ DNS ]### 
+           id        = 10399
+           qr        = 1
+           opcode    = QUERY
+           aa        = 0
+           tc        = 0
+           rd        = 1
+           ra        = 1
+           z         = 0
+           ad        = 0
+           cd        = 0
+           rcode     = ok
+           qdcount   = 1
+           ancount   = 0
+           nscount   = 0
+           arcount   = 0
+           \qd        \
+            |###[ DNS Question Record ]### 
+            |  qname     = 'e61jgu3yesbk.cloud.wazuh.com.'
+            |  qtype     = A
+            |  qclass    = IN
+           an        = None
+           ns        = None
+           ar        = None
+"
+Ether / IP / UDP 192.168.43.143:55562 > 239.255.255.250:ssdp / Raw,"###[ Ethernet ]### 
+  dst       = 01:00:5e:7f:ff:fa
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 203
+     id        = 27917
+     flags     = 
+     frag      = 0
+     ttl       = 1
+     proto     = udp
+     chksum    = 0x6fe3
+     src       = 192.168.43.143
+     dst       = 239.255.255.250
+     \options   \
+###[ UDP ]### 
+        sport     = 55562
+        dport     = ssdp
+        len       = 183
+        chksum    = 0xbb34
+###[ Raw ]### 
+           load      = 'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: ""ssdp:discover""\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/127.0.2651.98 Windows\r\n\r\n'
+"
+Ether / IP / UDP 192.168.43.143:55562 > 239.255.255.250:ssdp / Raw,"###[ Ethernet ]### 
+  dst       = 01:00:5e:7f:ff:fa
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 203
+     id        = 27918
+     flags     = 
+     frag      = 0
+     ttl       = 1
+     proto     = udp
+     chksum    = 0x6fe2
+     src       = 192.168.43.143
+     dst       = 239.255.255.250
+     \options   \
+###[ UDP ]### 
+        sport     = 55562
+        dport     = ssdp
+        len       = 183
+        chksum    = 0xbb34
+###[ Raw ]### 
+           load      = 'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: ""ssdp:discover""\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/127.0.2651.98 Windows\r\n\r\n'
+"
+Ether / IP / UDP 192.168.43.143:55562 > 239.255.255.250:ssdp / Raw,"###[ Ethernet ]### 
+  dst       = 01:00:5e:7f:ff:fa
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 203
+     id        = 27919
+     flags     = 
+     frag      = 0
+     ttl       = 1
+     proto     = udp
+     chksum    = 0x6fe1
+     src       = 192.168.43.143
+     dst       = 239.255.255.250
+     \options   \
+###[ UDP ]### 
+        sport     = 55562
+        dport     = ssdp
+        len       = 183
+        chksum    = 0xbb34
+###[ Raw ]### 
+           load      = 'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: ""ssdp:discover""\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/127.0.2651.98 Windows\r\n\r\n'
+"
+Ether / IP / UDP 192.168.43.143:55562 > 239.255.255.250:ssdp / Raw,"###[ Ethernet ]### 
+  dst       = 01:00:5e:7f:ff:fa
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 203
+     id        = 27920
+     flags     = 
+     frag      = 0
+     ttl       = 1
+     proto     = udp
+     chksum    = 0x6fe0
+     src       = 192.168.43.143
+     dst       = 239.255.255.250
+     \options   \
+###[ UDP ]### 
+        sport     = 55562
+        dport     = ssdp
+        len       = 183
+        chksum    = 0xbb34
+###[ Raw ]### 
+           load      = 'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: ""ssdp:discover""\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/127.0.2651.98 Windows\r\n\r\n'
+"
+Ether / IP / TCP 192.168.43.143:55263 > 13.107.21.239:https A / Raw,"###[ Ethernet ]### 
+  dst       = 92:56:fc:a6:05:7d
+  src       = 5c:51:4f:9c:d9:43
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 41
+     id        = 60797
+     flags     = DF
+     frag      = 0
+     ttl       = 128
+     proto     = tcp
+     chksum    = 0xfdbf
+     src       = 192.168.43.143
+     dst       = 13.107.21.239
+     \options   \
+###[ TCP ]### 
+        sport     = 55263
+        dport     = https
+        seq       = 2768767494
+        ack       = 1700527766
+        dataofs   = 5
+        reserved  = 0
+        flags     = A
+        window    = 258
+        chksum    = 0xb2a4
+        urgptr    = 0
+        options   = []
+###[ Raw ]### 
+           load      = '\x00'
+"
+Ether / IP / TCP 13.107.21.239:https > 192.168.43.143:55263 A,"###[ Ethernet ]### 
+  dst       = 5c:51:4f:9c:d9:43
+  src       = 92:56:fc:a6:05:7d
+  type      = IPv4
+###[ IP ]### 
+     version   = 4
+     ihl       = 5
+     tos       = 0x0
+     len       = 52
+     id        = 62916
+     flags     = DF
+     frag      = 0
+     ttl       = 106
+     proto     = tcp
+     chksum    = 0xb6e
+     src       = 13.107.21.239
+     dst       = 192.168.43.143
+     \options   \
+###[ TCP ]### 
+        sport     = https
+        dport     = 55263
+        seq       = 1700527766
+        ack       = 2768767495
+        dataofs   = 8
+        reserved  = 0
+        flags     = A
+        window    = 16384
+        chksum    = 0xdf70
+        urgptr    = 0
+        options   = [('NOP', None), ('NOP', None), ('SAck', (2768767494, 2768767495))]
+"

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Update package list and install Suricata
+sudo apt-get update
+sudo apt-get install -y suricata
+
+# Copy configuration files
+sudo cp configs/suricata.yaml /etc/suricata/
+sudo cp configs/rules/* /etc/suricata/rules/
+
+# Download Emerging Threats rules
+sudo wget https://rules.emergingthreats.net/open/suricata/emerging.rules.tar.gz
+sudo tar zxvf emerging.rules.tar.gz -C /etc/suricata/rules/
+sudo rm emerging.rules.tar.gz
+
+# Restart Suricata service
+sudo systemctl restart suricata
+
+# Tail the fast.log to monitor alerts
+tail -f /var/log/suricata/fast.log

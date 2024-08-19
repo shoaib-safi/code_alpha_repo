@@ -1,0 +1,16 @@
+# Simple Emerging Threats Example Rules
+
+# Rule to detect ICMP Echo Request (ping) flood
+alert icmp any any -> any any (msg:"ICMP Echo Request Flood Detected"; itype:8; sid:1000001; rev:1;)
+
+# Rule to detect an attempt to connect to a known malicious IP
+alert ip any any -> 192.168.1.10 any (msg:"Attempt to connect to a known malicious IP"; flow:to_server; sid:1000002; rev:1;)
+
+# Rule to detect an HTTP request with suspicious User-Agent string
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"Suspicious User-Agent Detected"; content:"User-Agent: EvilBot"; http_header; sid:1000003; rev:1;)
+
+# Rule to detect FTP login attempts
+alert tcp $EXTERNAL_NET any -> $HOME_NET 21 (msg:"FTP Login Attempt Detected"; flow:to_server,established; content:"USER"; nocase; sid:1000004; rev:1;)
+
+# Rule to detect DNS queries for suspicious domains
+alert udp $HOME_NET any -> $EXTERNAL_NET 53 (msg:"Suspicious DNS Query Detected"; content:"malicious.com"; nocase; sid:1000005; rev:1;)
